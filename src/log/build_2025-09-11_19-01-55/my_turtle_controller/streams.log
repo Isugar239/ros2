@@ -1,0 +1,41 @@
+[1.193s] Invoking command in '/home/za1van/ros2_ws/src/my_turtle_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/src/build/my_turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_turtle_controller build --build-base /home/za1van/ros2_ws/src/build/my_turtle_controller/build install --record /home/za1van/ros2_ws/src/build/my_turtle_controller/install.log --single-version-externally-managed install_data
+[1.587s] running egg_info
+[1.588s] creating ../build/my_turtle_controller/my_turtle_controller.egg-info
+[1.620s] writing ../build/my_turtle_controller/my_turtle_controller.egg-info/PKG-INFO
+[1.620s] writing dependency_links to ../build/my_turtle_controller/my_turtle_controller.egg-info/dependency_links.txt
+[1.620s] writing entry points to ../build/my_turtle_controller/my_turtle_controller.egg-info/entry_points.txt
+[1.621s] writing requirements to ../build/my_turtle_controller/my_turtle_controller.egg-info/requires.txt
+[1.621s] writing top-level names to ../build/my_turtle_controller/my_turtle_controller.egg-info/top_level.txt
+[1.621s] writing manifest file '../build/my_turtle_controller/my_turtle_controller.egg-info/SOURCES.txt'
+[1.683s] reading manifest file '../build/my_turtle_controller/my_turtle_controller.egg-info/SOURCES.txt'
+[1.684s] writing manifest file '../build/my_turtle_controller/my_turtle_controller.egg-info/SOURCES.txt'
+[1.684s] running build
+[1.684s] running build_py
+[1.684s] creating /home/za1van/ros2_ws/src/build/my_turtle_controller/build
+[1.684s] creating /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib
+[1.685s] creating /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib/my_turtle_controller
+[1.685s] copying my_turtle_controller/turtle_mover.py -> /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib/my_turtle_controller
+[1.685s] copying my_turtle_controller/turtle_figure8.py -> /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib/my_turtle_controller
+[1.685s] copying my_turtle_controller/__init__.py -> /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib/my_turtle_controller
+[1.685s] running install
+[1.695s] running install_lib
+[1.726s] creating /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller
+[1.726s] copying /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib/my_turtle_controller/turtle_mover.py -> /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller
+[1.726s] copying /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib/my_turtle_controller/turtle_figure8.py -> /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller
+[1.726s] copying /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib/my_turtle_controller/__init__.py -> /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller
+[1.727s] byte-compiling /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/turtle_mover.py to turtle_mover.cpython-312.pyc
+[1.728s] byte-compiling /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/turtle_figure8.py to turtle_figure8.cpython-312.pyc
+[1.729s] byte-compiling /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/__init__.py to __init__.cpython-312.pyc
+[1.729s] running install_data
+[1.729s] creating /home/za1van/ros2_ws/src/install/my_turtle_controller/share/ament_index
+[1.730s] creating /home/za1van/ros2_ws/src/install/my_turtle_controller/share/ament_index/resource_index
+[1.730s] creating /home/za1van/ros2_ws/src/install/my_turtle_controller/share/ament_index/resource_index/packages
+[1.730s] copying resource/my_turtle_controller -> /home/za1van/ros2_ws/src/install/my_turtle_controller/share/ament_index/resource_index/packages
+[1.730s] copying package.xml -> /home/za1van/ros2_ws/src/install/my_turtle_controller/share/my_turtle_controller
+[1.730s] running install_egg_info
+[1.762s] Copying ../build/my_turtle_controller/my_turtle_controller.egg-info to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller-0.0.0-py3.12.egg-info
+[1.763s] running install_scripts
+[1.965s] Installing turtle_figure8 script to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/my_turtle_controller
+[1.966s] Installing turtle_mover script to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/my_turtle_controller
+[1.966s] writing list of installed files to '/home/za1van/ros2_ws/src/build/my_turtle_controller/install.log'
+[2.007s] Invoked command in '/home/za1van/ros2_ws/src/my_turtle_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/src/build/my_turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_turtle_controller build --build-base /home/za1van/ros2_ws/src/build/my_turtle_controller/build install --record /home/za1van/ros2_ws/src/build/my_turtle_controller/install.log --single-version-externally-managed install_data

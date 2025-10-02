@@ -1,0 +1,21 @@
+[3.119s] Invoking command in '/home/za1van/ros2_ws/src/my_service_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/src/build/my_service_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/src/install/my_service_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_service_server build --build-base /home/za1van/ros2_ws/src/build/my_service_server/build install --record /home/za1van/ros2_ws/src/build/my_service_server/install.log --single-version-externally-managed install_data
+[3.809s] running egg_info
+[3.863s] writing ../build/my_service_server/my_service_server.egg-info/PKG-INFO
+[3.863s] writing dependency_links to ../build/my_service_server/my_service_server.egg-info/dependency_links.txt
+[3.863s] writing entry points to ../build/my_service_server/my_service_server.egg-info/entry_points.txt
+[3.867s] writing requirements to ../build/my_service_server/my_service_server.egg-info/requires.txt
+[3.868s] writing top-level names to ../build/my_service_server/my_service_server.egg-info/top_level.txt
+[3.971s] reading manifest file '../build/my_service_server/my_service_server.egg-info/SOURCES.txt'
+[3.974s] writing manifest file '../build/my_service_server/my_service_server.egg-info/SOURCES.txt'
+[3.974s] running build
+[3.974s] running build_py
+[3.974s] running install
+[3.988s] running install_lib
+[4.043s] running install_data
+[4.044s] running install_egg_info
+[4.097s] removing '/home/za1van/ros2_ws/src/install/my_service_server/lib/python3.12/site-packages/my_service_server-0.0.0-py3.12.egg-info' (and everything under it)
+[4.098s] Copying ../build/my_service_server/my_service_server.egg-info to /home/za1van/ros2_ws/src/install/my_service_server/lib/python3.12/site-packages/my_service_server-0.0.0-py3.12.egg-info
+[4.100s] running install_scripts
+[4.454s] Installing velocity_server script to /home/za1van/ros2_ws/src/install/my_service_server/lib/my_service_server
+[4.455s] writing list of installed files to '/home/za1van/ros2_ws/src/build/my_service_server/install.log'
+[4.531s] Invoked command in '/home/za1van/ros2_ws/src/my_service_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/src/build/my_service_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/src/install/my_service_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_service_server build --build-base /home/za1van/ros2_ws/src/build/my_service_server/build install --record /home/za1van/ros2_ws/src/build/my_service_server/install.log --single-version-externally-managed install_data

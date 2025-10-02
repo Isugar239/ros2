@@ -1,0 +1,57 @@
+[0.051s] Invoking command in '/home/za1van/ros2_ws/src/build/my_service_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/ros2_ws/src/my_service_interfaces -DCMAKE_INSTALL_PREFIX=/home/za1van/ros2_ws/src/install/my_service_interfaces
+[1.116s] -- The C compiler identification is GNU 13.3.0
+[1.116s] -- The CXX compiler identification is GNU 13.3.0
+[1.116s] -- Detecting C compiler ABI info
+[1.116s] -- Detecting C compiler ABI info - done
+[1.117s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.117s] -- Detecting C compile features
+[1.117s] -- Detecting C compile features - done
+[1.117s] -- Detecting CXX compiler ABI info
+[1.117s] -- Detecting CXX compiler ABI info - done
+[1.118s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.118s] -- Detecting CXX compile features
+[1.118s] -- Detecting CXX compile features - done
+[1.121s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.122s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.122s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.124s]   CMake.
+[1.125s] 
+[1.126s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.126s]   to tell CMake that the project requires at least <min> but has been updated
+[1.126s]   to work with policies introduced by <max> or earlier.
+[1.126s] 
+[1.126s] [0m
+[1.279s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+[1.567s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.592s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.805s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.110s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.466s] Error parsing '/home/za1van/ros2_ws/src/my_service_interfaces/package.xml':
+[12.369s] Traceback (most recent call last):
+[12.370s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[12.370s]     main()
+[12.371s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[12.371s]     raise e
+[12.371s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[12.371s]     package = parse_package_string(
+[12.371s]               ^^^^^^^^^^^^^^^^^^^^^
+[12.372s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[12.372s]     pkg.validate(warnings=warnings)
+[12.372s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[12.375s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[12.376s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/za1van/ros2_ws/src/my_service_interfaces/package.xml':
+[12.376s] The package "my_service_interfaces" must not "exec_depend" on a package with the same name as this package
+[12.443s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[12.443s]   execute_process(/usr/bin/python3
+[12.445s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[12.445s]   /home/za1van/ros2_ws/src/my_service_interfaces/package.xml
+[12.445s]   /home/za1van/ros2_ws/src/build/my_service_interfaces/ament_cmake_core/package.cmake)
+[12.445s]   returned error code 1
+[12.445s] Call Stack (most recent call first):
+[12.447s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[12.447s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[12.447s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[12.448s] 
+[12.448s] [0m
+[12.449s] -- Configuring incomplete, errors occurred!
+[12.455s] Invoked command in '/home/za1van/ros2_ws/src/build/my_service_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/ros2_ws/src/my_service_interfaces -DCMAKE_INSTALL_PREFIX=/home/za1van/ros2_ws/src/install/my_service_interfaces

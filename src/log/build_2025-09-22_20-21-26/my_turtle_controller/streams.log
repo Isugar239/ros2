@@ -1,0 +1,27 @@
+[3.486s] Invoking command in '/home/za1van/ros2_ws/src/my_turtle_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/src/build/my_turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_turtle_controller build --build-base /home/za1van/ros2_ws/src/build/my_turtle_controller/build install --record /home/za1van/ros2_ws/src/build/my_turtle_controller/install.log --single-version-externally-managed install_data
+[4.332s] running egg_info
+[4.399s] writing ../build/my_turtle_controller/my_turtle_controller.egg-info/PKG-INFO
+[4.399s] writing dependency_links to ../build/my_turtle_controller/my_turtle_controller.egg-info/dependency_links.txt
+[4.401s] writing entry points to ../build/my_turtle_controller/my_turtle_controller.egg-info/entry_points.txt
+[4.403s] writing requirements to ../build/my_turtle_controller/my_turtle_controller.egg-info/requires.txt
+[4.403s] writing top-level names to ../build/my_turtle_controller/my_turtle_controller.egg-info/top_level.txt
+[4.545s] reading manifest file '../build/my_turtle_controller/my_turtle_controller.egg-info/SOURCES.txt'
+[4.547s] writing manifest file '../build/my_turtle_controller/my_turtle_controller.egg-info/SOURCES.txt'
+[4.547s] running build
+[4.548s] running build_py
+[4.555s] copying my_turtle_controller/follower_spawner.py -> /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib/my_turtle_controller
+[4.560s] running install
+[4.567s] running install_lib
+[4.641s] copying /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib/my_turtle_controller/follower_spawner.py -> /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller
+[4.642s] byte-compiling /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/follower_spawner.py to follower_spawner.cpython-312.pyc
+[4.646s] running install_data
+[4.647s] running install_egg_info
+[4.717s] removing '/home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[4.722s] Copying ../build/my_turtle_controller/my_turtle_controller.egg-info to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller-0.0.0-py3.12.egg-info
+[4.723s] running install_scripts
+[5.364s] Installing turtle_figure8 script to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/my_turtle_controller
+[5.364s] Installing turtle_follower_spawner script to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/my_turtle_controller
+[5.364s] Installing turtle_mover script to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/my_turtle_controller
+[5.364s] Installing turtle_pose_follower script to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/my_turtle_controller
+[5.371s] writing list of installed files to '/home/za1van/ros2_ws/src/build/my_turtle_controller/install.log'
+[5.537s] Invoked command in '/home/za1van/ros2_ws/src/my_turtle_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/src/build/my_turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_turtle_controller build --build-base /home/za1van/ros2_ws/src/build/my_turtle_controller/build install --record /home/za1van/ros2_ws/src/build/my_turtle_controller/install.log --single-version-externally-managed install_data

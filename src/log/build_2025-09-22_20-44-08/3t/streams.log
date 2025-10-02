@@ -1,0 +1,21 @@
+[3.621s] Invoking command in '/home/za1van/ros2_ws/src/3t': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/src/build/3t/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/src/install/3t/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/3t build --build-base /home/za1van/ros2_ws/src/build/3t/build install --record /home/za1van/ros2_ws/src/build/3t/install.log --single-version-externally-managed install_data
+[4.336s] running egg_info
+[4.413s] writing ../build/3t/3t.egg-info/PKG-INFO
+[4.417s] writing dependency_links to ../build/3t/3t.egg-info/dependency_links.txt
+[4.417s] writing entry points to ../build/3t/3t.egg-info/entry_points.txt
+[4.417s] writing requirements to ../build/3t/3t.egg-info/requires.txt
+[4.418s] writing top-level names to ../build/3t/3t.egg-info/top_level.txt
+[4.545s] reading manifest file '../build/3t/3t.egg-info/SOURCES.txt'
+[4.548s] writing manifest file '../build/3t/3t.egg-info/SOURCES.txt'
+[4.549s] running build
+[4.549s] running build_py
+[4.549s] running install
+[4.595s] running install_lib
+[4.673s] running install_data
+[4.675s] running install_egg_info
+[4.756s] removing '/home/za1van/ros2_ws/src/install/3t/lib/python3.12/site-packages/3t-0.0.0-py3.12.egg-info' (and everything under it)
+[4.756s] Copying ../build/3t/3t.egg-info to /home/za1van/ros2_ws/src/install/3t/lib/python3.12/site-packages/3t-0.0.0-py3.12.egg-info
+[4.759s] running install_scripts
+[5.206s] Installing sled script to /home/za1van/ros2_ws/src/install/3t/lib/3t
+[5.207s] writing list of installed files to '/home/za1van/ros2_ws/src/build/3t/install.log'
+[5.281s] Invoked command in '/home/za1van/ros2_ws/src/3t' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/src/build/3t/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/src/install/3t/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/3t build --build-base /home/za1van/ros2_ws/src/build/3t/build install --record /home/za1van/ros2_ws/src/build/3t/install.log --single-version-externally-managed install_data

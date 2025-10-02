@@ -1,0 +1,5 @@
+[console_scripts]
+turtle_figure8 = my_turtle_controller.turtle_figure8:main
+turtle_follower_spawner = my_turtle_controller.follower_spawner:main
+turtle_mover = my_turtle_controller.turtle_mover:main
+turtle_pose_follower = my_turtle_controller.turtle_pose_follower:main

@@ -1,0 +1,341 @@
+[0.000000] (-) TimerEvent: {}
+[0.000866] (-) JobUnselected: {'identifier': 'my_turtle_controller'}
+[0.000912] (my_service_interfaces) JobQueued: {'identifier': 'my_service_interfaces', 'dependencies': OrderedDict()}
+[0.000939] (my_service_interfaces) JobStarted: {'identifier': 'my_service_interfaces'}
+[0.009828] (my_service_interfaces) JobProgress: {'identifier': 'my_service_interfaces', 'progress': 'cmake'}
+[0.010533] (my_service_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/za1van/ros2_ws/src/my_service_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/za1van/ros2_ws/install/my_service_interfaces'], 'cwd': '/home/za1van/ros2_ws/build/my_service_interfaces', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'GTK_CSD': '0', 'USER': 'za1van', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2125', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/za1van', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/za1van/ros2_ws/src/my_service_interfaces', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': 'bb13c98ebe10456484b560bd44b6a5ee', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/za1van/.gtkrc:/home/za1van/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'KONSOLE_DBUS_SESSION': '/Sessions/2', 'MANAGERPID': '1964', 'SYSTEMD_EXEC_PID': '2564', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/za1van/ros2_ws/src/install:/home/za1van/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'za1van', 'WINDOWID': '0', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:21548', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.kde.yakuake@autostart.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/za1van/.gtkrc-2.0:/home/za1van/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/home/za1van/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/dell-station:@/tmp/.ICE-unix/2320,unix/dell-station:/tmp/.ICE-unix/2320', 'INVOCATION_ID': '16a49c21526a40d0be6b206b35bf7cae', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_QXnNia', 'DISPLAY': ':0', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_XSQLOg', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-XD4N1hpyiWBc/agent.2029', 'AMENT_PREFIX_PATH': '/home/za1van/ros2_ws/src/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_turtle_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.71', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/za1van/ros2_ws/build/my_service_interfaces', 'XDG_CONFIG_DIRS': '/home/za1van/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages:/home/za1van/ros2_ws/install/my_turtle_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/za1van/ros2_ws/src/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_turtle_controller:/opt/ros/jazzy'}), 'shell': False}
+[0.099642] (-) TimerEvent: {}
+[0.199985] (-) TimerEvent: {}
+[0.237999] (my_service_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300151] (-) TimerEvent: {}
+[0.398917] (my_service_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.400263] (-) TimerEvent: {}
+[0.429432] (my_service_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500357] (-) TimerEvent: {}
+[0.548123] (my_service_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.560617] (my_service_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.561324] (my_service_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.562266] (my_service_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.576739] (my_service_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600470] (-) TimerEvent: {}
+[0.700771] (-) TimerEvent: {}
+[0.701407] (my_service_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.715743] (my_service_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.716107] (my_service_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.716758] (my_service_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.720095] (my_service_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.800871] (-) TimerEvent: {}
+[0.901176] (-) TimerEvent: {}
+[0.924326] (my_service_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.001304] (-) TimerEvent: {}
+[1.068682] (my_service_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.076815] (my_service_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101412] (-) TimerEvent: {}
+[1.152165] (my_service_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201486] (-) TimerEvent: {}
+[1.212760] (my_service_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.301616] (-) TimerEvent: {}
+[1.401892] (-) TimerEvent: {}
+[1.502137] (-) TimerEvent: {}
+[1.602405] (-) TimerEvent: {}
+[1.702701] (-) TimerEvent: {}
+[1.802977] (-) TimerEvent: {}
+[1.903223] (-) TimerEvent: {}
+[2.003443] (-) TimerEvent: {}
+[2.086124] (my_service_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.103571] (-) TimerEvent: {}
+[2.203940] (-) TimerEvent: {}
+[2.304315] (-) TimerEvent: {}
+[2.404638] (-) TimerEvent: {}
+[2.505174] (-) TimerEvent: {}
+[2.605419] (-) TimerEvent: {}
+[2.705652] (-) TimerEvent: {}
+[2.738382] (my_service_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.805748] (-) TimerEvent: {}
+[2.905965] (-) TimerEvent: {}
+[3.006184] (-) TimerEvent: {}
+[3.106467] (-) TimerEvent: {}
+[3.206728] (-) TimerEvent: {}
+[3.306997] (-) TimerEvent: {}
+[3.407301] (-) TimerEvent: {}
+[3.496513] (my_service_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.507487] (-) TimerEvent: {}
+[3.508155] (my_service_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.607587] (-) TimerEvent: {}
+[3.704500] (my_service_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.707672] (-) TimerEvent: {}
+[3.807912] (-) TimerEvent: {}
+[3.908159] (-) TimerEvent: {}
+[4.008496] (-) TimerEvent: {}
+[4.109021] (-) TimerEvent: {}
+[4.209277] (-) TimerEvent: {}
+[4.309482] (-) TimerEvent: {}
+[4.309880] (my_service_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.357530] (my_service_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.395968] (my_service_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.398329] (my_service_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.402214] (my_service_interfaces) StdoutLine: {'line': b'-- Configuring done (4.3s)\n'}
+[4.409618] (-) TimerEvent: {}
+[4.448852] (my_service_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.464098] (my_service_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/za1van/ros2_ws/build/my_service_interfaces\n'}
+[4.476842] (my_service_interfaces) CommandEnded: {'returncode': 0}
+[4.477453] (my_service_interfaces) JobProgress: {'identifier': 'my_service_interfaces', 'progress': 'build'}
+[4.478375] (my_service_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/za1van/ros2_ws/build/my_service_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/za1van/ros2_ws/build/my_service_interfaces', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'GTK_CSD': '0', 'USER': 'za1van', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2125', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/za1van', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/za1van/ros2_ws/src/my_service_interfaces', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': 'bb13c98ebe10456484b560bd44b6a5ee', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/za1van/.gtkrc:/home/za1van/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'KONSOLE_DBUS_SESSION': '/Sessions/2', 'MANAGERPID': '1964', 'SYSTEMD_EXEC_PID': '2564', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/za1van/ros2_ws/src/install:/home/za1van/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'za1van', 'WINDOWID': '0', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:21548', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.kde.yakuake@autostart.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/za1van/.gtkrc-2.0:/home/za1van/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/home/za1van/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/dell-station:@/tmp/.ICE-unix/2320,unix/dell-station:/tmp/.ICE-unix/2320', 'INVOCATION_ID': '16a49c21526a40d0be6b206b35bf7cae', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_QXnNia', 'DISPLAY': ':0', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_XSQLOg', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-XD4N1hpyiWBc/agent.2029', 'AMENT_PREFIX_PATH': '/home/za1van/ros2_ws/src/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_turtle_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.71', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/za1van/ros2_ws/build/my_service_interfaces', 'XDG_CONFIG_DIRS': '/home/za1van/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages:/home/za1van/ros2_ws/install/my_turtle_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/za1van/ros2_ws/src/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_turtle_controller:/opt/ros/jazzy'}), 'shell': False}
+[4.509713] (-) TimerEvent: {}
+[4.539953] (my_service_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.549916] (my_service_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_my_service_interfaces\n'}
+[4.609816] (-) TimerEvent: {}
+[4.710083] (-) TimerEvent: {}
+[4.797072] (my_service_interfaces) StdoutLine: {'line': b'[  2%] Built target my_service_interfaces__rosidl_generator_type_description\n'}
+[4.810184] (-) TimerEvent: {}
+[4.815351] (my_service_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.828881] (my_service_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.910288] (-) TimerEvent: {}
+[4.947031] (my_service_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.948850] (my_service_interfaces) StdoutLine: {'line': b'creating my_service_interfaces.egg-info\n'}
+[4.999862] (my_service_interfaces) StdoutLine: {'line': b'writing my_service_interfaces.egg-info/PKG-INFO\n'}
+[5.000326] (my_service_interfaces) StdoutLine: {'line': b'writing dependency_links to my_service_interfaces.egg-info/dependency_links.txt\n'}
+[5.001465] (my_service_interfaces) StdoutLine: {'line': b'writing top-level names to my_service_interfaces.egg-info/top_level.txt\n'}
+[5.001725] (my_service_interfaces) StdoutLine: {'line': b"writing manifest file 'my_service_interfaces.egg-info/SOURCES.txt'\n"}
+[5.010385] (-) TimerEvent: {}
+[5.110770] (-) TimerEvent: {}
+[5.150851] (my_service_interfaces) StdoutLine: {'line': b"reading manifest file 'my_service_interfaces.egg-info/SOURCES.txt'\n"}
+[5.152330] (my_service_interfaces) StdoutLine: {'line': b"writing manifest file 'my_service_interfaces.egg-info/SOURCES.txt'\n"}
+[5.207194] (my_service_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_my_service_interfaces_egg\n'}
+[5.210876] (-) TimerEvent: {}
+[5.256578] (my_service_interfaces) StdoutLine: {'line': b'[  8%] Built target my_service_interfaces__cpp\n'}
+[5.311003] (-) TimerEvent: {}
+[5.386994] (my_service_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_service_interfaces/srv/detail/set_velocity__type_support.c.o\x1b[0m\n'}
+[5.389232] (my_service_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_service_interfaces/srv/detail/set_velocity__description.c.o\x1b[0m\n'}
+[5.389561] (my_service_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_service_interfaces/srv/detail/set_velocity__functions.c.o\x1b[0m\n'}
+[5.411117] (-) TimerEvent: {}
+[5.511381] (-) TimerEvent: {}
+[5.529813] (my_service_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmy_service_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.576276] (my_service_interfaces) StdoutLine: {'line': b'[ 20%] Built target my_service_interfaces__rosidl_generator_c\n'}
+[5.593569] (my_service_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.593844] (my_service_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.594003] (my_service_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.595333] (my_service_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.612095] (-) TimerEvent: {}
+[5.712387] (-) TimerEvent: {}
+[5.812712] (-) TimerEvent: {}
+[5.912997] (-) TimerEvent: {}
+[6.013370] (-) TimerEvent: {}
+[6.103298] (my_service_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_service_interfaces/srv/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[6.113479] (-) TimerEvent: {}
+[6.169059] (my_service_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_service_interfaces/srv/detail/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[6.177580] (my_service_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_service_interfaces/srv/detail/set_velocity__type_support.c.o\x1b[0m\n'}
+[6.213583] (-) TimerEvent: {}
+[6.275644] (my_service_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library libmy_service_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.313686] (-) TimerEvent: {}
+[6.335575] (my_service_interfaces) StdoutLine: {'line': b'[ 44%] Built target my_service_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.338516] (my_service_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_service_interfaces/srv/detail/set_velocity__type_support_c.cpp.o\x1b[0m\n'}
+[6.353858] (my_service_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.413963] (-) TimerEvent: {}
+[6.514465] (-) TimerEvent: {}
+[6.614928] (-) TimerEvent: {}
+[6.715293] (-) TimerEvent: {}
+[6.815624] (-) TimerEvent: {}
+[6.915360] (my_service_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_service_interfaces/srv/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[6.915634] (-) TimerEvent: {}
+[7.015920] (-) TimerEvent: {}
+[7.041749] (my_service_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.100268] (my_service_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.116597] (-) TimerEvent: {}
+[7.130371] (my_service_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.156275] (my_service_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_service_interfaces__rosidl_typesupport_c\n'}
+[7.176832] (my_service_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.216140] (-) TimerEvent: {}
+[7.266708] (my_service_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_service_interfaces__rosidl_typesupport_cpp\n'}
+[7.310561] (my_service_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_service_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.316239] (-) TimerEvent: {}
+[7.416896] (-) TimerEvent: {}
+[7.441549] (my_service_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.517002] (-) TimerEvent: {}
+[7.546204] (my_service_interfaces) StdoutLine: {'line': b'[ 67%] Built target my_service_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.617104] (-) TimerEvent: {}
+[7.667580] (my_service_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/my_service_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_service_interfaces/srv/detail/dds_fastrtps/set_velocity__type_support.cpp.o\x1b[0m\n'}
+[7.717199] (-) TimerEvent: {}
+[7.817490] (-) TimerEvent: {}
+[7.917755] (-) TimerEvent: {}
+[8.017965] (-) TimerEvent: {}
+[8.118246] (-) TimerEvent: {}
+[8.218479] (-) TimerEvent: {}
+[8.318713] (-) TimerEvent: {}
+[8.419010] (-) TimerEvent: {}
+[8.452709] (my_service_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libmy_service_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.519106] (-) TimerEvent: {}
+[8.553036] (my_service_interfaces) StdoutLine: {'line': b'[ 73%] Built target my_service_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.578026] (my_service_interfaces) StdoutLine: {'line': b'[ 73%] Built target my_service_interfaces\n'}
+[8.604104] (my_service_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.619200] (-) TimerEvent: {}
+[8.719469] (-) TimerEvent: {}
+[8.819913] (-) TimerEvent: {}
+[8.920168] (-) TimerEvent: {}
+[9.020446] (-) TimerEvent: {}
+[9.077091] (my_service_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_service_interfaces__py\n'}
+[9.102110] (my_service_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_service_interfaces/srv/_set_velocity_s.c.o\x1b[0m\n'}
+[9.120585] (-) TimerEvent: {}
+[9.220879] (-) TimerEvent: {}
+[9.321166] (-) TimerEvent: {}
+[9.367762] (my_service_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libmy_service_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[9.421276] (-) TimerEvent: {}
+[9.421507] (my_service_interfaces) StdoutLine: {'line': b'[ 82%] Built target my_service_interfaces__rosidl_generator_py\n'}
+[9.449551] (my_service_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.456917] (my_service_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.457319] (my_service_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_service_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.521600] (-) TimerEvent: {}
+[9.611061] (my_service_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.622345] (-) TimerEvent: {}
+[9.667585] (my_service_interfaces) StdoutLine: {'line': b'[ 94%] Built target my_service_interfaces_s__rosidl_typesupport_c\n'}
+[9.675920] (my_service_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.678227] (my_service_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.717353] (my_service_interfaces) StdoutLine: {'line': b'[100%] Built target my_service_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[9.719632] (my_service_interfaces) StdoutLine: {'line': b'[100%] Built target my_service_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[9.722478] (-) TimerEvent: {}
+[9.734565] (my_service_interfaces) CommandEnded: {'returncode': 0}
+[9.735709] (my_service_interfaces) JobProgress: {'identifier': 'my_service_interfaces', 'progress': 'install'}
+[9.746469] (my_service_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/za1van/ros2_ws/build/my_service_interfaces'], 'cwd': '/home/za1van/ros2_ws/build/my_service_interfaces', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'GTK_CSD': '0', 'USER': 'za1van', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2125', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/za1van', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/za1van/ros2_ws/src/my_service_interfaces', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': 'bb13c98ebe10456484b560bd44b6a5ee', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/za1van/.gtkrc:/home/za1van/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'KONSOLE_DBUS_SESSION': '/Sessions/2', 'MANAGERPID': '1964', 'SYSTEMD_EXEC_PID': '2564', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/za1van/ros2_ws/src/install:/home/za1van/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'za1van', 'WINDOWID': '0', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:21548', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.kde.yakuake@autostart.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/za1van/.gtkrc-2.0:/home/za1van/.config/gtkrc-2.0', 'PATH': '/opt/ros/jazzy/bin:/home/za1van/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/dell-station:@/tmp/.ICE-unix/2320,unix/dell-station:/tmp/.ICE-unix/2320', 'INVOCATION_ID': '16a49c21526a40d0be6b206b35bf7cae', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'ICEAUTHORITY': '/run/user/1000/iceauth_QXnNia', 'DISPLAY': ':0', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_XSQLOg', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-XD4N1hpyiWBc/agent.2029', 'AMENT_PREFIX_PATH': '/home/za1van/ros2_ws/src/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_turtle_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.71', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/za1van/ros2_ws/build/my_service_interfaces', 'XDG_CONFIG_DIRS': '/home/za1van/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages:/home/za1van/ros2_ws/install/my_turtle_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/za1van/ros2_ws/src/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_turtle_controller:/opt/ros/jazzy'}), 'shell': False}
+[9.757144] (my_service_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.757531] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_service_interfaces\n'}
+[9.757831] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/srv/SetVelocity.json\n'}
+[9.758071] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces\n'}
+[9.758299] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv\n'}
+[9.758550] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail\n'}
+[9.758692] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.c\n'}
+[9.758874] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__struct.h\n'}
+[9.759061] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__functions.h\n'}
+[9.759250] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.h\n'}
+[9.759458] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__functions.c\n'}
+[9.759609] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__description.c\n'}
+[9.759767] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/set_velocity.h\n'}
+[9.759911] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg\n'}
+[9.760084] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.760232] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/library_path.sh\n'}
+[9.760431] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/library_path.dsv\n'}
+[9.760636] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_generator_c.so\n'}
+[9.761066] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_generator_c.so" to ""\n'}
+[9.761269] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces\n'}
+[9.761538] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv\n'}
+[9.761699] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail\n'}
+[9.761861] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__rosidl_typesupport_fastrtps_c.h\n'}
+[9.762027] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg\n'}
+[9.762186] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.762400] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.762742] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.762991] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces\n'}
+[9.763280] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv\n'}
+[9.763465] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail\n'}
+[9.763690] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.c\n'}
+[9.763909] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__rosidl_typesupport_introspection_c.h\n'}
+[9.764150] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg\n'}
+[9.764358] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.764606] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.764810] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.765078] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_c.so\n'}
+[9.765318] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[9.765610] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces\n'}
+[9.765843] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv\n'}
+[9.766073] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/set_velocity.hpp\n'}
+[9.766322] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail\n'}
+[9.766563] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__traits.hpp\n'}
+[9.766833] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__builder.hpp\n'}
+[9.767084] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.hpp\n'}
+[9.767266] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__struct.hpp\n'}
+[9.767525] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg\n'}
+[9.767722] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.767945] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces\n'}
+[9.768133] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv\n'}
+[9.768370] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail\n'}
+[9.768641] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/dds_fastrtps\n'}
+[9.768852] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.769083] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg\n'}
+[9.769269] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.769501] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.769694] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.769882] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces\n'}
+[9.770134] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv\n'}
+[9.770356] (my_service_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail\n'}
+[9.770569] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__type_support.cpp\n'}
+[9.770830] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/include/my_service_interfaces/my_service_interfaces/srv/detail/set_velocity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.771074] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.771333] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.771580] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_cpp.so\n'}
+[9.771814] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[9.772041] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/pythonpath.sh\n'}
+[9.772307] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/pythonpath.dsv\n'}
+[9.772551] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces-0.0.0-py3.12.egg-info\n'}
+[9.772782] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[9.773032] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[9.773260] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[9.773502] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[9.773753] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces\n'}
+[9.773978] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_c.so\n'}
+[9.774205] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv\n'}
+[9.774388] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv/_set_velocity_s.c\n'}
+[9.774603] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv/_set_velocity.py\n'}
+[9.774790] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv/__init__.py\n'}
+[9.774942] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[9.775024] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.775125] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/__init__.py\n'}
+[9.775268] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[9.775503] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[9.775626] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/_my_service_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.822562] (-) TimerEvent: {}
+[9.830492] (my_service_interfaces) StdoutLine: {'line': b"Listing '/home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces'...\n"}
+[9.830720] (my_service_interfaces) StdoutLine: {'line': b"Compiling '/home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/__init__.py'...\n"}
+[9.830832] (my_service_interfaces) StdoutLine: {'line': b"Listing '/home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv'...\n"}
+[9.830914] (my_service_interfaces) StdoutLine: {'line': b"Compiling '/home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv/__init__.py'...\n"}
+[9.831001] (my_service_interfaces) StdoutLine: {'line': b"Compiling '/home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/srv/_set_velocity.py'...\n"}
+[9.839825] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[9.840345] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.840718] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[9.841247] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.841598] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_c.so\n'}
+[9.842136] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages/my_service_interfaces/my_service_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[9.842411] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_generator_py.so\n'}
+[9.842937] (my_service_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/my_service_interfaces/lib/libmy_service_interfaces__rosidl_generator_py.so" to ""\n'}
+[9.843249] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/srv/SetVelocity.idl\n'}
+[9.843445] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/srv/SetVelocity.srv\n'}
+[9.843647] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/ament_index/resource_index/package_run_dependencies/my_service_interfaces\n'}
+[9.843865] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/ament_index/resource_index/parent_prefix_path/my_service_interfaces\n'}
+[9.844094] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/ament_prefix_path.sh\n'}
+[9.844255] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.844509] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/path.sh\n'}
+[9.844777] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/environment/path.dsv\n'}
+[9.845034] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/local_setup.bash\n'}
+[9.845285] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/local_setup.sh\n'}
+[9.845519] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/local_setup.zsh\n'}
+[9.845687] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/local_setup.dsv\n'}
+[9.845860] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/package.dsv\n'}
+[9.846073] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/ament_index/resource_index/packages/my_service_interfaces\n'}
+[9.846290] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_cExport.cmake\n'}
+[9.846540] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.846705] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.846871] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.847067] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.847278] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.847447] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.847649] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.847859] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.848118] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.848338] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.848547] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.848811] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.849035] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.849267] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.849472] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_pyExport.cmake\n'}
+[9.849639] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/export_my_service_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.849783] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.849976] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.850162] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.850362] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.850598] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.850822] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.851053] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.851277] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfacesConfig.cmake\n'}
+[9.851493] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/cmake/my_service_interfacesConfig-version.cmake\n'}
+[9.851631] (my_service_interfaces) StdoutLine: {'line': b'-- Installing: /home/za1van/ros2_ws/install/my_service_interfaces/share/my_service_interfaces/package.xml\n'}
+[9.854133] (my_service_interfaces) CommandEnded: {'returncode': 0}
+[9.880871] (my_service_interfaces) JobEnded: {'identifier': 'my_service_interfaces', 'rc': 0}
+[9.881767] (-) EventReactorShutdown: {}

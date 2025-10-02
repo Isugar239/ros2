@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/3t/3t.egg-info/PKG-INFO
+writing dependency_links to ../build/3t/3t.egg-info/dependency_links.txt
+writing entry points to ../build/3t/3t.egg-info/entry_points.txt
+writing requirements to ../build/3t/3t.egg-info/requires.txt
+writing top-level names to ../build/3t/3t.egg-info/top_level.txt
+reading manifest file '../build/3t/3t.egg-info/SOURCES.txt'
+writing manifest file '../build/3t/3t.egg-info/SOURCES.txt'
+running build
+running build_py
+copying 3t/sled.py -> /home/za1van/ros2_ws/src/build/3t/build/lib/3t
+running install
+running install_lib
+copying /home/za1van/ros2_ws/src/build/3t/build/lib/3t/sled.py -> /home/za1van/ros2_ws/src/install/3t/lib/python3.12/site-packages/3t
+byte-compiling /home/za1van/ros2_ws/src/install/3t/lib/python3.12/site-packages/3t/sled.py to sled.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/za1van/ros2_ws/src/install/3t/lib/python3.12/site-packages/3t-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/3t/3t.egg-info to /home/za1van/ros2_ws/src/install/3t/lib/python3.12/site-packages/3t-0.0.0-py3.12.egg-info
+running install_scripts
+Installing sled script to /home/za1van/ros2_ws/src/install/3t/lib/3t
+writing list of installed files to '/home/za1van/ros2_ws/src/build/3t/install.log'
