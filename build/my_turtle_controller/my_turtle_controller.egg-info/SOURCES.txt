@@ -8,6 +8,8 @@ setup.py
 ../../build/my_turtle_controller/my_turtle_controller.egg-info/requires.txt
 ../../build/my_turtle_controller/my_turtle_controller.egg-info/top_level.txt
 ../../build/my_turtle_controller/my_turtle_controller.egg-info/zip-safe
+launch/follow_with_teleop.launch.py
+launch/multi_followers_with_teleop.launch.py
 my_turtle_controller/__init__.py
 my_turtle_controller/follower_spawner.py
 my_turtle_controller/turtle_figure8.py

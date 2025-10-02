@@ -10,6 +10,8 @@
 /home/za1van/ros2_ws/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/__pycache__/follower_spawner.cpython-312.pyc
 /home/za1van/ros2_ws/install/my_turtle_controller/share/ament_index/resource_index/packages/my_turtle_controller
 /home/za1van/ros2_ws/install/my_turtle_controller/share/my_turtle_controller/package.xml
+/home/za1van/ros2_ws/install/my_turtle_controller/share/my_turtle_controller/launch/follow_with_teleop.launch.py
+/home/za1van/ros2_ws/install/my_turtle_controller/share/my_turtle_controller/launch/multi_followers_with_teleop.launch.py
 /home/za1van/ros2_ws/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller-0.0.0-py3.12.egg-info/dependency_links.txt
 /home/za1van/ros2_ws/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller-0.0.0-py3.12.egg-info/PKG-INFO
 /home/za1van/ros2_ws/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller-0.0.0-py3.12.egg-info/top_level.txt
