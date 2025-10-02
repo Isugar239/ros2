@@ -1,0 +1,21 @@
+[3.007s] Invoking command in '/home/za1van/ros2_ws/src/my_service_client': AMENT_PREFIX_PATH=/home/za1van/ros2_ws/install/my_service_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/za1van/ros2_ws/install/my_service_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/za1van/ros2_ws/install/my_service_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/za1van/ros2_ws/build/my_service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/install/my_service_client/lib/python3.12/site-packages:/home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_service_client build --build-base /home/za1van/ros2_ws/build/my_service_client/build install --record /home/za1van/ros2_ws/build/my_service_client/install.log --single-version-externally-managed install_data
+[4.298s] running egg_info
+[4.385s] writing ../../build/my_service_client/my_service_client.egg-info/PKG-INFO
+[4.385s] writing dependency_links to ../../build/my_service_client/my_service_client.egg-info/dependency_links.txt
+[4.386s] writing entry points to ../../build/my_service_client/my_service_client.egg-info/entry_points.txt
+[4.386s] writing requirements to ../../build/my_service_client/my_service_client.egg-info/requires.txt
+[4.386s] writing top-level names to ../../build/my_service_client/my_service_client.egg-info/top_level.txt
+[4.482s] reading manifest file '../../build/my_service_client/my_service_client.egg-info/SOURCES.txt'
+[4.484s] writing manifest file '../../build/my_service_client/my_service_client.egg-info/SOURCES.txt'
+[4.484s] running build
+[4.484s] running build_py
+[4.484s] running install
+[4.496s] running install_lib
+[4.541s] running install_data
+[4.541s] running install_egg_info
+[4.582s] removing '/home/za1van/ros2_ws/install/my_service_client/lib/python3.12/site-packages/my_service_client-0.0.0-py3.12.egg-info' (and everything under it)
+[4.583s] Copying ../../build/my_service_client/my_service_client.egg-info to /home/za1van/ros2_ws/install/my_service_client/lib/python3.12/site-packages/my_service_client-0.0.0-py3.12.egg-info
+[4.585s] running install_scripts
+[4.828s] Installing velocity_client script to /home/za1van/ros2_ws/install/my_service_client/lib/my_service_client
+[4.829s] writing list of installed files to '/home/za1van/ros2_ws/build/my_service_client/install.log'
+[4.870s] Invoked command in '/home/za1van/ros2_ws/src/my_service_client' returned '0': AMENT_PREFIX_PATH=/home/za1van/ros2_ws/install/my_service_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/za1van/ros2_ws/install/my_service_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/za1van/ros2_ws/install/my_service_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/za1van/ros2_ws/build/my_service_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/install/my_service_client/lib/python3.12/site-packages:/home/za1van/ros2_ws/install/my_service_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_service_client build --build-base /home/za1van/ros2_ws/build/my_service_client/build install --record /home/za1van/ros2_ws/build/my_service_client/install.log --single-version-externally-managed install_data

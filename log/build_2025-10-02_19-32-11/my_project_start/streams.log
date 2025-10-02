@@ -1,0 +1,34 @@
+[1.405s] Invoking command in '/home/za1van/ros2_ws/src/my_project_start': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/build/my_project_start/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/install/my_project_start/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_project_start build --build-base /home/za1van/ros2_ws/build/my_project_start/build install --record /home/za1van/ros2_ws/build/my_project_start/install.log --single-version-externally-managed install_data
+[1.903s] running egg_info
+[1.903s] creating ../../build/my_project_start/my_project_start.egg-info
+[1.941s] writing ../../build/my_project_start/my_project_start.egg-info/PKG-INFO
+[1.942s] writing dependency_links to ../../build/my_project_start/my_project_start.egg-info/dependency_links.txt
+[1.942s] writing requirements to ../../build/my_project_start/my_project_start.egg-info/requires.txt
+[1.943s] writing top-level names to ../../build/my_project_start/my_project_start.egg-info/top_level.txt
+[1.943s] writing manifest file '../../build/my_project_start/my_project_start.egg-info/SOURCES.txt'
+[2.004s] reading manifest file '../../build/my_project_start/my_project_start.egg-info/SOURCES.txt'
+[2.005s] writing manifest file '../../build/my_project_start/my_project_start.egg-info/SOURCES.txt'
+[2.006s] running build
+[2.006s] running build_py
+[2.006s] creating /home/za1van/ros2_ws/build/my_project_start/build
+[2.006s] creating /home/za1van/ros2_ws/build/my_project_start/build/lib
+[2.006s] creating /home/za1van/ros2_ws/build/my_project_start/build/lib/my_project_start
+[2.007s] copying my_project_start/__init__.py -> /home/za1van/ros2_ws/build/my_project_start/build/lib/my_project_start
+[2.007s] running install
+[2.017s] running install_lib
+[2.053s] creating /home/za1van/ros2_ws/install/my_project_start/lib/python3.12/site-packages/my_project_start
+[2.054s] copying /home/za1van/ros2_ws/build/my_project_start/build/lib/my_project_start/__init__.py -> /home/za1van/ros2_ws/install/my_project_start/lib/python3.12/site-packages/my_project_start
+[2.054s] byte-compiling /home/za1van/ros2_ws/install/my_project_start/lib/python3.12/site-packages/my_project_start/__init__.py to __init__.cpython-312.pyc
+[2.055s] running install_data
+[2.055s] creating /home/za1van/ros2_ws/install/my_project_start/share/ament_index
+[2.055s] creating /home/za1van/ros2_ws/install/my_project_start/share/ament_index/resource_index
+[2.055s] creating /home/za1van/ros2_ws/install/my_project_start/share/ament_index/resource_index/packages
+[2.056s] copying resource/my_project_start -> /home/za1van/ros2_ws/install/my_project_start/share/ament_index/resource_index/packages
+[2.056s] copying package.xml -> /home/za1van/ros2_ws/install/my_project_start/share/my_project_start
+[2.056s] creating /home/za1van/ros2_ws/install/my_project_start/share/my_project_start/launch
+[2.056s] copying launch/start.launch.py -> /home/za1van/ros2_ws/install/my_project_start/share/my_project_start/launch
+[2.056s] running install_egg_info
+[2.091s] Copying ../../build/my_project_start/my_project_start.egg-info to /home/za1van/ros2_ws/install/my_project_start/lib/python3.12/site-packages/my_project_start-0.0.0-py3.12.egg-info
+[2.092s] running install_scripts
+[2.303s] writing list of installed files to '/home/za1van/ros2_ws/build/my_project_start/install.log'
+[2.347s] Invoked command in '/home/za1van/ros2_ws/src/my_project_start' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/build/my_project_start/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/install/my_project_start/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_project_start build --build-base /home/za1van/ros2_ws/build/my_project_start/build install --record /home/za1van/ros2_ws/build/my_project_start/install.log --single-version-externally-managed install_data

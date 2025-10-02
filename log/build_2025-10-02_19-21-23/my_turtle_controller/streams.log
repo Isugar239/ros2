@@ -1,0 +1,8 @@
+[3.399s] Invoking command in '/home/za1van/ros2_ws/src/my_turtle_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/build/my_turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/install/my_turtle_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtle_controller build --build-base /home/za1van/ros2_ws/build/my_turtle_controller/build install --record /home/za1van/ros2_ws/build/my_turtle_controller/install.log --single-version-externally-managed install_data
+[4.397s] running egg_info
+[4.485s] writing ../../build/my_turtle_controller/my_turtle_controller.egg-info/PKG-INFO
+[4.489s] writing dependency_links to ../../build/my_turtle_controller/my_turtle_controller.egg-info/dependency_links.txt
+[4.489s] writing entry points to ../../build/my_turtle_controller/my_turtle_controller.egg-info/entry_points.txt
+[4.490s] writing requirements to ../../build/my_turtle_controller/my_turtle_controller.egg-info/requires.txt
+[4.490s] writing top-level names to ../../build/my_turtle_controller/my_turtle_controller.egg-info/top_level.txt
+[4.623s] interrupted
