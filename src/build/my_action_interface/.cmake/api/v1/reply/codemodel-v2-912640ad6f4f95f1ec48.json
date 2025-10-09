@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0f05edb33f4292d6aec1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "my_action_interface__py",
+					"jsonFile" : "directory-my_action_interface__py-fa2c891b003b747e569d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/za1van/ros2_ws/src/build/my_action_interface/my_action_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "my_action_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_action_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_action_interface_egg-779828e1450336aed2a7.json",
+					"name" : "ament_cmake_python_build_my_action_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_my_action_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_my_action_interface-1266a324acfc07effc91.json",
+					"name" : "ament_cmake_python_copy_my_action_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface-b14b2eae4f3bf6e6311c.json",
+					"name" : "my_action_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface__cpp-3362cb5c1e76bdc49dda.json",
+					"name" : "my_action_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_action_interface__py::@cc7ba15745c6d7dbdff8",
+					"jsonFile" : "target-my_action_interface__py-f03adde29b2c5cef15f0.json",
+					"name" : "my_action_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface__rosidl_generator_c-1c213dcc7d7f5275abb4.json",
+					"name" : "my_action_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface__rosidl_generator_py-6ffe00271ad5b63a3135.json",
+					"name" : "my_action_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface__rosidl_generator_type_description-86e3491d16d7f5c3c93e.json",
+					"name" : "my_action_interface__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface__rosidl_typesupport_c-3c543512976a1e8d3415.json",
+					"name" : "my_action_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface__rosidl_typesupport_cpp-db277c4eedae7ce7fe99.json",
+					"name" : "my_action_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface__rosidl_typesupport_fastrtps_c-c9e13991e310b016862a.json",
+					"name" : "my_action_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface__rosidl_typesupport_fastrtps_cpp-e19b5b053bb49cbc53d4.json",
+					"name" : "my_action_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface__rosidl_typesupport_introspection_c-9bf6b367f335b1328fd2.json",
+					"name" : "my_action_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface__rosidl_typesupport_introspection_cpp-af2f8dcea4d2d8f3edf8.json",
+					"name" : "my_action_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface_s__rosidl_typesupport_c-284407fbaf1f835bb70c.json",
+					"name" : "my_action_interface_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface_s__rosidl_typesupport_fastrtps_c-e6f95a87a323cc1de75c.json",
+					"name" : "my_action_interface_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface_s__rosidl_typesupport_introspection_c-2dfc3a69b098c7e7c819.json",
+					"name" : "my_action_interface_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_action_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_action_interface_uninstall-ef41c07791ce1db40898.json",
+					"name" : "my_action_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-24e1105a5c24064cf7f7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/za1van/ros2_ws/src/build/my_action_interface",
+		"source" : "/home/za1van/ros2_ws/src/my_action_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

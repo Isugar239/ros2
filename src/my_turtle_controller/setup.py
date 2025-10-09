@@ -28,6 +28,8 @@ setup(
 'turtle_figure8 = my_turtle_controller.turtle_figure8:main',
 'turtle_pose_follower = my_turtle_controller.turtle_pose_follower:main',
 'turtle_follower_spawner = my_turtle_controller.follower_spawner:main',
+            'turtle_move_action_server = my_turtle_controller.turtle_move_action_server:main',
+            'turtle_move_action_client = my_turtle_controller.turtle_move_action_client:main',
   ],
     },
 )

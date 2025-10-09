@@ -1,0 +1,45 @@
+[3.669s] Invoking command in '/home/za1van/ros2_ws/src/my_calculate_action': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/src/build/my_calculate_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/src/install/my_calculate_action/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_calculate_action build --build-base /home/za1van/ros2_ws/src/build/my_calculate_action/build install --record /home/za1van/ros2_ws/src/build/my_calculate_action/install.log --single-version-externally-managed install_data
+[5.779s] running egg_info
+[5.784s] creating ../build/my_calculate_action/my_calculate_action.egg-info
+[5.845s] writing ../build/my_calculate_action/my_calculate_action.egg-info/PKG-INFO
+[5.849s] writing dependency_links to ../build/my_calculate_action/my_calculate_action.egg-info/dependency_links.txt
+[5.850s] writing entry points to ../build/my_calculate_action/my_calculate_action.egg-info/entry_points.txt
+[5.850s] writing requirements to ../build/my_calculate_action/my_calculate_action.egg-info/requires.txt
+[5.850s] writing top-level names to ../build/my_calculate_action/my_calculate_action.egg-info/top_level.txt
+[5.855s] writing manifest file '../build/my_calculate_action/my_calculate_action.egg-info/SOURCES.txt'
+[6.000s] reading manifest file '../build/my_calculate_action/my_calculate_action.egg-info/SOURCES.txt'
+[6.003s] writing manifest file '../build/my_calculate_action/my_calculate_action.egg-info/SOURCES.txt'
+[6.003s] running build
+[6.003s] running build_py
+[6.003s] creating /home/za1van/ros2_ws/src/build/my_calculate_action/build
+[6.003s] creating /home/za1van/ros2_ws/src/build/my_calculate_action/build/lib
+[6.004s] creating /home/za1van/ros2_ws/src/build/my_calculate_action/build/lib/my_calculate_action
+[6.004s] copying my_calculate_action/calculate_action_client.py -> /home/za1van/ros2_ws/src/build/my_calculate_action/build/lib/my_calculate_action
+[6.004s] copying my_calculate_action/publisher_node.py -> /home/za1van/ros2_ws/src/build/my_calculate_action/build/lib/my_calculate_action
+[6.008s] copying my_calculate_action/calculate_action_server.py -> /home/za1van/ros2_ws/src/build/my_calculate_action/build/lib/my_calculate_action
+[6.010s] copying my_calculate_action/__init__.py -> /home/za1van/ros2_ws/src/build/my_calculate_action/build/lib/my_calculate_action
+[6.010s] running install
+[6.022s] running install_lib
+[6.089s] creating /home/za1van/ros2_ws/src/install/my_calculate_action/lib/python3.12/site-packages/my_calculate_action
+[6.089s] copying /home/za1van/ros2_ws/src/build/my_calculate_action/build/lib/my_calculate_action/calculate_action_client.py -> /home/za1van/ros2_ws/src/install/my_calculate_action/lib/python3.12/site-packages/my_calculate_action
+[6.091s] copying /home/za1van/ros2_ws/src/build/my_calculate_action/build/lib/my_calculate_action/publisher_node.py -> /home/za1van/ros2_ws/src/install/my_calculate_action/lib/python3.12/site-packages/my_calculate_action
+[6.091s] copying /home/za1van/ros2_ws/src/build/my_calculate_action/build/lib/my_calculate_action/calculate_action_server.py -> /home/za1van/ros2_ws/src/install/my_calculate_action/lib/python3.12/site-packages/my_calculate_action
+[6.091s] copying /home/za1van/ros2_ws/src/build/my_calculate_action/build/lib/my_calculate_action/__init__.py -> /home/za1van/ros2_ws/src/install/my_calculate_action/lib/python3.12/site-packages/my_calculate_action
+[6.092s] byte-compiling /home/za1van/ros2_ws/src/install/my_calculate_action/lib/python3.12/site-packages/my_calculate_action/calculate_action_client.py to calculate_action_client.cpython-312.pyc
+[6.093s] byte-compiling /home/za1van/ros2_ws/src/install/my_calculate_action/lib/python3.12/site-packages/my_calculate_action/publisher_node.py to publisher_node.cpython-312.pyc
+[6.099s] byte-compiling /home/za1van/ros2_ws/src/install/my_calculate_action/lib/python3.12/site-packages/my_calculate_action/calculate_action_server.py to calculate_action_server.cpython-312.pyc
+[6.099s] byte-compiling /home/za1van/ros2_ws/src/install/my_calculate_action/lib/python3.12/site-packages/my_calculate_action/__init__.py to __init__.cpython-312.pyc
+[6.100s] running install_data
+[6.100s] creating /home/za1van/ros2_ws/src/install/my_calculate_action/share/ament_index
+[6.100s] creating /home/za1van/ros2_ws/src/install/my_calculate_action/share/ament_index/resource_index
+[6.103s] creating /home/za1van/ros2_ws/src/install/my_calculate_action/share/ament_index/resource_index/packages
+[6.103s] copying resource/my_calculate_action -> /home/za1van/ros2_ws/src/install/my_calculate_action/share/ament_index/resource_index/packages
+[6.104s] copying package.xml -> /home/za1van/ros2_ws/src/install/my_calculate_action/share/my_calculate_action
+[6.107s] running install_egg_info
+[6.170s] Copying ../build/my_calculate_action/my_calculate_action.egg-info to /home/za1van/ros2_ws/src/install/my_calculate_action/lib/python3.12/site-packages/my_calculate_action-0.0.0-py3.12.egg-info
+[6.173s] running install_scripts
+[6.759s] Installing calculate_action_client script to /home/za1van/ros2_ws/src/install/my_calculate_action/lib/my_calculate_action
+[6.759s] Installing calculate_action_server script to /home/za1van/ros2_ws/src/install/my_calculate_action/lib/my_calculate_action
+[6.759s] Installing number_publisher script to /home/za1van/ros2_ws/src/install/my_calculate_action/lib/my_calculate_action
+[6.762s] writing list of installed files to '/home/za1van/ros2_ws/src/build/my_calculate_action/install.log'
+[6.939s] Invoked command in '/home/za1van/ros2_ws/src/my_calculate_action' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/src/build/my_calculate_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/src/install/my_calculate_action/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_calculate_action build --build-base /home/za1van/ros2_ws/src/build/my_calculate_action/build install --record /home/za1van/ros2_ws/src/build/my_calculate_action/install.log --single-version-externally-managed install_data

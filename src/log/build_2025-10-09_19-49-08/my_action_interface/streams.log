@@ -1,0 +1,277 @@
+[0.056s] Invoking command in '/home/za1van/ros2_ws/src/build/my_action_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/src/install/my_turtle_controller:/home/za1van/ros2_ws/src/install/my_service_server:/home/za1van/ros2_ws/src/install/my_service_client:/home/za1van/ros2_ws/src/install/3t:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/ros2_ws/src/my_action_interface -DCMAKE_INSTALL_PREFIX=/home/za1van/ros2_ws/src/install/my_action_interface
+[0.727s] -- The C compiler identification is GNU 13.3.0
+[0.727s] -- The CXX compiler identification is GNU 13.3.0
+[0.727s] -- Detecting C compiler ABI info
+[0.731s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.731s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.736s]   CMake.
+[0.736s] 
+[0.736s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.737s]   to tell CMake that the project requires at least <min> but has been updated
+[0.739s]   to work with policies introduced by <max> or earlier.
+[0.741s] 
+[0.742s] [0m
+[0.853s] -- Detecting C compiler ABI info - done
+[0.883s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.884s] -- Detecting C compile features
+[0.885s] -- Detecting C compile features - done
+[0.912s] -- Detecting CXX compiler ABI info
+[1.110s] -- Detecting CXX compiler ABI info - done
+[1.165s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.166s] -- Detecting CXX compile features
+[1.170s] -- Detecting CXX compile features - done
+[1.197s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.509s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+[3.003s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.058s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.947s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[8.156s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[9.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.833s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[12.267s] -- Found PythonExtra: /usr/bin/python3
+[13.398s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed
+[13.506s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[13.585s] -- Added test 'lint_cmake' to check CMake code style
+[13.589s] -- Added test 'xmllint' to check XML markup files
+[13.602s] -- Configuring done (13.5s)
+[13.739s] -- Generating done (0.1s)
+[13.764s] -- Build files have been written to: /home/za1van/ros2_ws/src/build/my_action_interface
+[13.790s] Invoked command in '/home/za1van/ros2_ws/src/build/my_action_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/src/install/my_turtle_controller:/home/za1van/ros2_ws/src/install/my_service_server:/home/za1van/ros2_ws/src/install/my_service_client:/home/za1van/ros2_ws/src/install/3t:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/ros2_ws/src/my_action_interface -DCMAKE_INSTALL_PREFIX=/home/za1van/ros2_ws/src/install/my_action_interface
+[13.797s] Invoking command in '/home/za1van/ros2_ws/src/build/my_action_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/src/install/my_turtle_controller:/home/za1van/ros2_ws/src/install/my_service_server:/home/za1van/ros2_ws/src/install/my_service_client:/home/za1van/ros2_ws/src/install/3t:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/ros2_ws/src/build/my_action_interface -- -j4 -l4
+[13.884s] [  2%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[13.899s] [  2%] Built target ament_cmake_python_copy_my_action_interface
+[14.653s] running egg_info
+[14.653s] creating my_action_interface.egg-info
+[14.710s] writing my_action_interface.egg-info/PKG-INFO
+[14.713s] writing dependency_links to my_action_interface.egg-info/dependency_links.txt
+[14.714s] writing top-level names to my_action_interface.egg-info/top_level.txt
+[14.719s] writing manifest file 'my_action_interface.egg-info/SOURCES.txt'
+[14.809s] [  2%] Built target my_action_interface__rosidl_generator_type_description
+[14.868s] [  4%] [1m[34mGenerating C code for ROS interfaces[0m
+[14.888s] reading manifest file 'my_action_interface.egg-info/SOURCES.txt'
+[14.888s] writing manifest file 'my_action_interface.egg-info/SOURCES.txt'
+[14.938s] [  6%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[14.967s] [  6%] Built target ament_cmake_python_build_my_action_interface_egg
+[17.572s] [  6%] Built target my_action_interface__cpp
+[17.723s] [  9%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_c.dir/rosidl_generator_c/my_action_interface/action/detail/summ_calculate__description.c.o[0m
+[17.742s] [ 11%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_c.dir/rosidl_generator_c/my_action_interface/action/detail/move_to__description.c.o[0m
+[17.749s] [ 13%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_c.dir/rosidl_generator_c/my_action_interface/action/detail/summ_calculate__type_support.c.o[0m
+[17.756s] [ 15%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_c.dir/rosidl_generator_c/my_action_interface/action/detail/summ_calculate__functions.c.o[0m
+[18.020s] [ 18%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_c.dir/rosidl_generator_c/my_action_interface/action/detail/move_to__functions.c.o[0m
+[18.197s] [ 20%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_c.dir/rosidl_generator_c/my_action_interface/action/detail/move_to__type_support.c.o[0m
+[18.663s] [ 22%] [1m[32mLinking C shared library libmy_action_interface__rosidl_generator_c.so[0m
+[18.780s] [ 22%] Built target my_action_interface__rosidl_generator_c
+[18.835s] [ 25%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[18.837s] [ 27%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.844s] [ 29%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[18.850s] [ 31%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[21.257s] [ 34%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_action_interface/action/summ_calculate__type_support.cpp.o[0m
+[21.410s] [ 36%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_action_interface/action/detail/summ_calculate__type_support.cpp.o[0m
+[21.493s] [ 38%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_action_interface/action/detail/summ_calculate__type_support.c.o[0m
+[21.822s] [ 40%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_action_interface/action/detail/move_to__type_support.c.o[0m
+[22.031s] [ 43%] [1m[32mLinking C shared library libmy_action_interface__rosidl_typesupport_introspection_c.so[0m
+[22.131s] [ 45%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_action_interface/action/detail/summ_calculate__type_support_c.cpp.o[0m
+[22.147s] [ 45%] Built target my_action_interface__rosidl_typesupport_introspection_c
+[22.167s] [ 47%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_action_interface/action/move_to__type_support.cpp.o[0m
+[23.268s] [ 50%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_action_interface/action/detail/move_to__type_support.cpp.o[0m
+[23.514s] [ 52%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_action_interface/action/detail/move_to__type_support_c.cpp.o[0m
+[23.964s] [ 54%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[24.209s] [ 56%] [1m[32mLinking CXX shared library libmy_action_interface__rosidl_typesupport_cpp.so[0m
+[24.914s] [ 56%] Built target my_action_interface__rosidl_typesupport_cpp
+[25.339s] [ 59%] [1m[32mLinking CXX shared library libmy_action_interface__rosidl_typesupport_fastrtps_c.so[0m
+[25.615s] [ 59%] Built target my_action_interface__rosidl_typesupport_fastrtps_c
+[26.191s] [ 61%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_action_interface/action/summ_calculate__type_support.cpp.o[0m
+[26.246s] [ 63%] [1m[32mLinking CXX shared library libmy_action_interface__rosidl_typesupport_introspection_cpp.so[0m
+[26.374s] [ 65%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_action_interface/action/move_to__type_support.cpp.o[0m
+[26.488s] [ 65%] Built target my_action_interface__rosidl_typesupport_introspection_cpp
+[26.528s] [ 68%] [1m[32mLinking CXX shared library libmy_action_interface__rosidl_typesupport_c.so[0m
+[26.613s] [ 68%] Built target my_action_interface__rosidl_typesupport_c
+[26.631s] [ 70%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[28.341s] [ 72%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_action_interface/action/detail/dds_fastrtps/summ_calculate__type_support.cpp.o[0m
+[29.797s] [ 75%] [32mBuilding CXX object CMakeFiles/my_action_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_action_interface/action/detail/dds_fastrtps/move_to__type_support.cpp.o[0m
+[31.243s] [ 77%] [1m[32mLinking CXX shared library libmy_action_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[31.391s] [ 77%] Built target my_action_interface__rosidl_typesupport_fastrtps_cpp
+[31.417s] [ 77%] Built target my_action_interface
+[31.439s] [ 79%] [1m[34mGenerating Python code for ROS interfaces[0m
+[33.232s] [ 79%] Built target my_action_interface__py
+[33.252s] [ 81%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_py.dir/rosidl_generator_py/my_action_interface/action/_summ_calculate_s.c.o[0m
+[33.542s] [ 84%] [32mBuilding C object CMakeFiles/my_action_interface__rosidl_generator_py.dir/rosidl_generator_py/my_action_interface/action/_move_to_s.c.o[0m
+[33.835s] [ 86%] [1m[32mLinking C shared library libmy_action_interface__rosidl_generator_py.so[0m
+[33.897s] [ 86%] Built target my_action_interface__rosidl_generator_py
+[33.918s] [ 88%] [32mBuilding C object CMakeFiles/my_action_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[34.167s] [ 90%] [1m[32mLinking C shared module rosidl_generator_py/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[34.214s] [ 90%] Built target my_action_interface_s__rosidl_typesupport_fastrtps_c
+[34.234s] [ 93%] [32mBuilding C object CMakeFiles/my_action_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[34.463s] [ 95%] [1m[32mLinking C shared module rosidl_generator_py/my_action_interface/my_action_interface_s__rosidl_typesupport_c.so[0m
+[34.509s] [ 95%] Built target my_action_interface_s__rosidl_typesupport_c
+[34.529s] [ 97%] [32mBuilding C object CMakeFiles/my_action_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[34.754s] [100%] [1m[32mLinking C shared module rosidl_generator_py/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.so[0m
+[34.801s] [100%] Built target my_action_interface_s__rosidl_typesupport_introspection_c
+[34.810s] Invoked command in '/home/za1van/ros2_ws/src/build/my_action_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/src/install/my_turtle_controller:/home/za1van/ros2_ws/src/install/my_service_server:/home/za1van/ros2_ws/src/install/my_service_client:/home/za1van/ros2_ws/src/install/3t:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/ros2_ws/src/build/my_action_interface -- -j4 -l4
+[34.812s] Invoking command in '/home/za1van/ros2_ws/src/build/my_action_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/src/install/my_turtle_controller:/home/za1van/ros2_ws/src/install/my_service_server:/home/za1van/ros2_ws/src/install/my_service_client:/home/za1van/ros2_ws/src/install/3t:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/za1van/ros2_ws/src/build/my_action_interface
+[34.819s] -- Install configuration: ""
+[34.819s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/ament_index/resource_index/rosidl_interfaces/my_action_interface
+[34.820s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/action/SummCalculate.json
+[34.820s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/action/MoveTo.json
+[34.820s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface
+[34.821s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[34.821s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/move_to.h
+[34.821s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/summ_calculate.h
+[34.822s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[34.822s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__functions.h
+[34.822s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__type_support.h
+[34.822s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__struct.h
+[34.823s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__type_support.c
+[34.823s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__struct.h
+[34.823s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__functions.c
+[34.823s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__type_support.c
+[34.824s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__functions.c
+[34.824s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__functions.h
+[34.824s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__description.c
+[34.824s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__type_support.h
+[34.825s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__description.c
+[34.825s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/msg
+[34.825s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_generator_c__visibility_control.h
+[34.825s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/environment/library_path.sh
+[34.826s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/environment/library_path.dsv
+[34.826s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_c.so
+[34.826s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_c.so" to ""
+[34.826s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface
+[34.827s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[34.827s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[34.827s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__rosidl_typesupport_fastrtps_c.h
+[34.827s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__rosidl_typesupport_fastrtps_c.h
+[34.828s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/msg
+[34.828s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.828s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_c.so
+[34.828s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[34.829s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface
+[34.829s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[34.829s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[34.829s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__rosidl_typesupport_introspection_c.h
+[34.830s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__type_support.c
+[34.830s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__rosidl_typesupport_introspection_c.h
+[34.830s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__type_support.c
+[34.830s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/msg
+[34.831s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.831s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_c.so
+[34.831s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_c.so" to ""
+[34.832s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_c.so
+[34.832s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_c.so" to ""
+[34.832s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface
+[34.832s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[34.833s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/move_to.hpp
+[34.833s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/summ_calculate.hpp
+[34.833s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[34.833s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__traits.hpp
+[34.834s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__struct.hpp
+[34.834s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__traits.hpp
+[34.834s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__builder.hpp
+[34.834s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__type_support.hpp
+[34.835s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__builder.hpp
+[34.835s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__struct.hpp
+[34.835s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__type_support.hpp
+[34.835s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/msg
+[34.835s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[34.836s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface
+[34.836s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[34.836s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[34.836s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__rosidl_typesupport_fastrtps_cpp.hpp
+[34.837s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/dds_fastrtps
+[34.837s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__rosidl_typesupport_fastrtps_cpp.hpp
+[34.837s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/msg
+[34.838s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[34.838s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_cpp.so
+[34.838s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.838s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface
+[34.839s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action
+[34.839s] -- Up-to-date: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail
+[34.839s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__rosidl_typesupport_introspection_cpp.hpp
+[34.839s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/move_to__type_support.cpp
+[34.840s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__type_support.cpp
+[34.840s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/include/my_action_interface/my_action_interface/action/detail/summ_calculate__rosidl_typesupport_introspection_cpp.hpp
+[34.840s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_cpp.so
+[34.840s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[34.841s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_cpp.so
+[34.841s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_typesupport_cpp.so" to ""
+[34.841s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/environment/pythonpath.sh
+[34.841s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/environment/pythonpath.dsv
+[34.842s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface-0.0.0-py3.12.egg-info
+[34.842s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[34.842s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[34.842s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface-0.0.0-py3.12.egg-info/top_level.txt
+[34.843s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[34.843s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface
+[34.843s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_c.so
+[34.843s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_c.c
+[34.844s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.so
+[34.844s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_introspection_c.c
+[34.844s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/__init__.py
+[34.844s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.so
+[34.844s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/action
+[34.845s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/action/_move_to.py
+[34.845s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/action/_summ_calculate.py
+[34.845s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/action/_summ_calculate_s.c
+[34.845s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/action/_move_to_s.c
+[34.845s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/action/__init__.py
+[34.846s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/_my_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[34.935s] Listing '/home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface'...
+[34.935s] Compiling '/home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/__init__.py'...
+[34.936s] Listing '/home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/action'...
+[34.936s] Compiling '/home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/action/__init__.py'...
+[34.936s] Compiling '/home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/action/_move_to.py'...
+[34.936s] Compiling '/home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/action/_summ_calculate.py'...
+[34.945s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.so
+[34.946s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_fastrtps_c.so" to ""
+[34.946s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.so
+[34.947s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_introspection_c.so" to ""
+[34.947s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_c.so
+[34.948s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages/my_action_interface/my_action_interface_s__rosidl_typesupport_c.so" to ""
+[34.948s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_py.so
+[34.948s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/src/install/my_action_interface/lib/libmy_action_interface__rosidl_generator_py.so" to ""
+[34.949s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/action/SummCalculate.idl
+[34.949s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/action/MoveTo.idl
+[34.949s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/action/SummCalculate.action
+[34.949s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/action/MoveTo.action
+[34.949s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/ament_index/resource_index/package_run_dependencies/my_action_interface
+[34.950s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/ament_index/resource_index/parent_prefix_path/my_action_interface
+[34.950s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/environment/ament_prefix_path.sh
+[34.950s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/environment/ament_prefix_path.dsv
+[34.950s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/environment/path.sh
+[34.950s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/environment/path.dsv
+[34.951s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/local_setup.bash
+[34.952s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/local_setup.sh
+[34.952s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/local_setup.zsh
+[34.952s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/local_setup.dsv
+[34.952s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/package.dsv
+[34.953s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/ament_index/resource_index/packages/my_action_interface
+[34.953s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_cExport.cmake
+[34.953s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_cExport-noconfig.cmake
+[34.953s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[34.954s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[34.954s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cExport.cmake
+[34.954s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[34.954s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cExport.cmake
+[34.955s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cExport-noconfig.cmake
+[34.955s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_cppExport.cmake
+[34.955s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[34.955s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[34.956s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cppExport.cmake
+[34.956s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[34.956s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cppExport.cmake
+[34.956s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/my_action_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[34.957s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_pyExport.cmake
+[34.957s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/export_my_action_interface__rosidl_generator_pyExport-noconfig.cmake
+[34.957s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/rosidl_cmake-extras.cmake
+[34.957s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.958s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.958s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[34.958s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/ament_cmake_export_targets-extras.cmake
+[34.958s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[34.958s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[34.959s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/my_action_interfaceConfig.cmake
+[34.959s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/cmake/my_action_interfaceConfig-version.cmake
+[34.959s] -- Installing: /home/za1van/ros2_ws/src/install/my_action_interface/share/my_action_interface/package.xml
+[34.962s] Invoked command in '/home/za1van/ros2_ws/src/build/my_action_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/src/install/my_turtle_controller:/home/za1van/ros2_ws/src/install/my_service_server:/home/za1van/ros2_ws/src/install/my_service_client:/home/za1van/ros2_ws/src/install/3t:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/za1van/ros2_ws/src/build/my_action_interface

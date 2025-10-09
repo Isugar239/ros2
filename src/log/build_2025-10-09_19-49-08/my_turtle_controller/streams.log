@@ -1,0 +1,36 @@
+[1.423s] Invoking command in '/home/za1van/ros2_ws/src/my_turtle_controller': AMENT_PREFIX_PATH=/home/za1van/ros2_ws/src/install/my_action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/za1van/ros2_ws/src/install/my_action_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/za1van/ros2_ws/src/install/my_action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/za1van/ros2_ws/src/build/my_turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages:/home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_turtle_controller build --build-base /home/za1van/ros2_ws/src/build/my_turtle_controller/build install --record /home/za1van/ros2_ws/src/build/my_turtle_controller/install.log --single-version-externally-managed install_data
+[1.874s] running egg_info
+[1.914s] writing ../build/my_turtle_controller/my_turtle_controller.egg-info/PKG-INFO
+[1.914s] writing dependency_links to ../build/my_turtle_controller/my_turtle_controller.egg-info/dependency_links.txt
+[1.914s] writing entry points to ../build/my_turtle_controller/my_turtle_controller.egg-info/entry_points.txt
+[1.914s] writing requirements to ../build/my_turtle_controller/my_turtle_controller.egg-info/requires.txt
+[1.915s] writing top-level names to ../build/my_turtle_controller/my_turtle_controller.egg-info/top_level.txt
+[1.978s] reading manifest file '../build/my_turtle_controller/my_turtle_controller.egg-info/SOURCES.txt'
+[1.979s] writing manifest file '../build/my_turtle_controller/my_turtle_controller.egg-info/SOURCES.txt'
+[1.980s] running build
+[1.980s] running build_py
+[1.980s] copying my_turtle_controller/turtle_move_action_server.py -> /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib/my_turtle_controller
+[1.981s] copying my_turtle_controller/turtle_move_action_client.py -> /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib/my_turtle_controller
+[1.981s] running install
+[1.994s] running install_lib
+[2.033s] copying /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib/my_turtle_controller/turtle_move_action_server.py -> /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller
+[2.033s] copying /home/za1van/ros2_ws/src/build/my_turtle_controller/build/lib/my_turtle_controller/turtle_move_action_client.py -> /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller
+[2.034s] byte-compiling /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/turtle_move_action_server.py to turtle_move_action_server.cpython-312.pyc
+[2.035s] byte-compiling /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller/turtle_move_action_client.py to turtle_move_action_client.cpython-312.pyc
+[2.037s] running install_data
+[2.037s] copying package.xml -> /home/za1van/ros2_ws/src/install/my_turtle_controller/share/my_turtle_controller
+[2.037s] creating /home/za1van/ros2_ws/src/install/my_turtle_controller/share/my_turtle_controller/launch
+[2.037s] copying launch/follow_with_teleop.launch.py -> /home/za1van/ros2_ws/src/install/my_turtle_controller/share/my_turtle_controller/launch
+[2.037s] copying launch/multi_followers_with_teleop.launch.py -> /home/za1van/ros2_ws/src/install/my_turtle_controller/share/my_turtle_controller/launch
+[2.038s] running install_egg_info
+[2.072s] removing '/home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[2.072s] Copying ../build/my_turtle_controller/my_turtle_controller.egg-info to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages/my_turtle_controller-0.0.0-py3.12.egg-info
+[2.074s] running install_scripts
+[2.316s] Installing turtle_figure8 script to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/my_turtle_controller
+[2.317s] Installing turtle_follower_spawner script to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/my_turtle_controller
+[2.317s] Installing turtle_move_action_client script to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/my_turtle_controller
+[2.317s] Installing turtle_move_action_server script to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/my_turtle_controller
+[2.317s] Installing turtle_mover script to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/my_turtle_controller
+[2.317s] Installing turtle_pose_follower script to /home/za1van/ros2_ws/src/install/my_turtle_controller/lib/my_turtle_controller
+[2.318s] writing list of installed files to '/home/za1van/ros2_ws/src/build/my_turtle_controller/install.log'
+[2.362s] Invoked command in '/home/za1van/ros2_ws/src/my_turtle_controller' returned '0': AMENT_PREFIX_PATH=/home/za1van/ros2_ws/src/install/my_action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/za1van/ros2_ws/src/install/my_action_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/za1van/ros2_ws/src/install/my_action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/za1van/ros2_ws/src/build/my_turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/src/install/my_turtle_controller/lib/python3.12/site-packages:/home/za1van/ros2_ws/src/install/my_action_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_turtle_controller build --build-base /home/za1van/ros2_ws/src/build/my_turtle_controller/build install --record /home/za1van/ros2_ws/src/build/my_turtle_controller/install.log --single-version-externally-managed install_data

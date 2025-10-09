@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_action_interface/action/MoveTo.action
+// generated code does not contain a copyright notice
+
+
+module my_action_interface {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct MoveTo_Goal {
+      float x;
+
+      float y;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MoveTo_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct MoveTo_Feedback {
+      float distance_remaining;
+    };
+  };
+};
