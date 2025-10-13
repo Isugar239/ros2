@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/za1van/ros2_ws/build/my_two_wheel_robot/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

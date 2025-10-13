@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_action_interface/action/SummCalculate_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "my_action_interface/action/SummCalculate_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "my_action_interface/action/SummCalculate_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_action_interface/action/SummCalculate_GetResult_Response",
+      "hash_string": "RIHS01_285ba415b2b74ef6ef5b6dd862da92d5a4db564561111b27eced074d370a9454"
+    },
+    {
+      "type_name": "my_action_interface/action/SummCalculate_Result",
+      "hash_string": "RIHS01_c32aa40a6ae48d84249aaf3cf33bc342341b0eb9027ea7340ca0041ec1c1d90d"
+    }
+  ]
+}

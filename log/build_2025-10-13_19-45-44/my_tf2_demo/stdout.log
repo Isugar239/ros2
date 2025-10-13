@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/my_tf2_demo/my_tf2_demo.egg-info
+writing ../../build/my_tf2_demo/my_tf2_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_tf2_demo/my_tf2_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/my_tf2_demo/my_tf2_demo.egg-info/entry_points.txt
+writing requirements to ../../build/my_tf2_demo/my_tf2_demo.egg-info/requires.txt
+writing top-level names to ../../build/my_tf2_demo/my_tf2_demo.egg-info/top_level.txt
+writing manifest file '../../build/my_tf2_demo/my_tf2_demo.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_tf2_demo/my_tf2_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_tf2_demo/my_tf2_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/za1van/ros2_ws/build/my_tf2_demo/build
+creating /home/za1van/ros2_ws/build/my_tf2_demo/build/lib
+creating /home/za1van/ros2_ws/build/my_tf2_demo/build/lib/my_tf2_demo
+copying my_tf2_demo/turtle_tf2_listener.py -> /home/za1van/ros2_ws/build/my_tf2_demo/build/lib/my_tf2_demo
+copying my_tf2_demo/__init__.py -> /home/za1van/ros2_ws/build/my_tf2_demo/build/lib/my_tf2_demo
+copying my_tf2_demo/turtle_tf2_broadcaster.py -> /home/za1van/ros2_ws/build/my_tf2_demo/build/lib/my_tf2_demo
+copying my_tf2_demo/spawn_second_turtle.py -> /home/za1van/ros2_ws/build/my_tf2_demo/build/lib/my_tf2_demo
+running install
+running install_lib
+creating /home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages/my_tf2_demo
+copying /home/za1van/ros2_ws/build/my_tf2_demo/build/lib/my_tf2_demo/turtle_tf2_listener.py -> /home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages/my_tf2_demo
+copying /home/za1van/ros2_ws/build/my_tf2_demo/build/lib/my_tf2_demo/__init__.py -> /home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages/my_tf2_demo
+copying /home/za1van/ros2_ws/build/my_tf2_demo/build/lib/my_tf2_demo/turtle_tf2_broadcaster.py -> /home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages/my_tf2_demo
+copying /home/za1van/ros2_ws/build/my_tf2_demo/build/lib/my_tf2_demo/spawn_second_turtle.py -> /home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages/my_tf2_demo
+byte-compiling /home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages/my_tf2_demo/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc
+byte-compiling /home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages/my_tf2_demo/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages/my_tf2_demo/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+byte-compiling /home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages/my_tf2_demo/spawn_second_turtle.py to spawn_second_turtle.cpython-312.pyc
+running install_data
+creating /home/za1van/ros2_ws/install/my_tf2_demo/share/ament_index
+creating /home/za1van/ros2_ws/install/my_tf2_demo/share/ament_index/resource_index
+creating /home/za1van/ros2_ws/install/my_tf2_demo/share/ament_index/resource_index/packages
+copying resource/my_tf2_demo -> /home/za1van/ros2_ws/install/my_tf2_demo/share/ament_index/resource_index/packages
+copying package.xml -> /home/za1van/ros2_ws/install/my_tf2_demo/share/my_tf2_demo
+running install_egg_info
+Copying ../../build/my_tf2_demo/my_tf2_demo.egg-info to /home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages/my_tf2_demo-0.0.0-py3.12.egg-info
+running install_scripts
+Installing spawn_second_turtle script to /home/za1van/ros2_ws/install/my_tf2_demo/lib/my_tf2_demo
+Installing turtle_tf2_broadcaster script to /home/za1van/ros2_ws/install/my_tf2_demo/lib/my_tf2_demo
+Installing turtle_tf2_listener script to /home/za1van/ros2_ws/install/my_tf2_demo/lib/my_tf2_demo
+writing list of installed files to '/home/za1van/ros2_ws/build/my_tf2_demo/install.log'

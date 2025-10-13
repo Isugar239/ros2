@@ -13,6 +13,8 @@ launch/multi_followers_with_teleop.launch.py
 my_turtle_controller/__init__.py
 my_turtle_controller/follower_spawner.py
 my_turtle_controller/turtle_figure8.py
+my_turtle_controller/turtle_move_action_client.py
+my_turtle_controller/turtle_move_action_server.py
 my_turtle_controller/turtle_mover.py
 my_turtle_controller/turtle_pose_follower.py
 resource/my_turtle_controller

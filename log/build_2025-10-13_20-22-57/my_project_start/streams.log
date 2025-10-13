@@ -1,0 +1,19 @@
+[2.816s] Invoking command in '/home/za1van/ros2_ws/src/my_project_start': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/build/my_project_start/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/install/my_project_start/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_project_start build --build-base /home/za1van/ros2_ws/build/my_project_start/build install --record /home/za1van/ros2_ws/build/my_project_start/install.log --single-version-externally-managed install_data
+[4.015s] running egg_info
+[4.326s] writing ../../build/my_project_start/my_project_start.egg-info/PKG-INFO
+[4.329s] writing dependency_links to ../../build/my_project_start/my_project_start.egg-info/dependency_links.txt
+[4.329s] writing requirements to ../../build/my_project_start/my_project_start.egg-info/requires.txt
+[4.338s] writing top-level names to ../../build/my_project_start/my_project_start.egg-info/top_level.txt
+[4.897s] reading manifest file '../../build/my_project_start/my_project_start.egg-info/SOURCES.txt'
+[4.913s] writing manifest file '../../build/my_project_start/my_project_start.egg-info/SOURCES.txt'
+[4.913s] running build
+[4.913s] running build_py
+[4.914s] running install
+[5.000s] running install_lib
+[5.340s] running install_data
+[5.355s] running install_egg_info
+[5.580s] removing '/home/za1van/ros2_ws/install/my_project_start/lib/python3.12/site-packages/my_project_start-0.0.0-py3.12.egg-info' (and everything under it)
+[5.583s] Copying ../../build/my_project_start/my_project_start.egg-info to /home/za1van/ros2_ws/install/my_project_start/lib/python3.12/site-packages/my_project_start-0.0.0-py3.12.egg-info
+[5.583s] running install_scripts
+[6.262s] writing list of installed files to '/home/za1van/ros2_ws/build/my_project_start/install.log'
+[6.406s] Invoked command in '/home/za1van/ros2_ws/src/my_project_start' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/build/my_project_start/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/install/my_project_start/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_project_start build --build-base /home/za1van/ros2_ws/build/my_project_start/build install --record /home/za1van/ros2_ws/build/my_project_start/install.log --single-version-externally-managed install_data

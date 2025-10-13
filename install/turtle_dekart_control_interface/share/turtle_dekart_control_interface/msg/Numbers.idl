@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_dekart_control_interface/msg/Numbers.msg
+// generated code does not contain a copyright notice
+
+
+module turtle_dekart_control_interface {
+  module msg {
+    struct Numbers {
+      int16 a;
+
+      int16 b;
+    };
+  };
+};

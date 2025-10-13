@@ -1,0 +1,4 @@
+[console_scripts]
+spawn_second_turtle = my_tf2_demo.spawn_second_turtle:main
+turtle_tf2_broadcaster = my_tf2_demo.turtle_tf2_broadcaster:main
+turtle_tf2_listener = my_tf2_demo.turtle_tf2_listener:main

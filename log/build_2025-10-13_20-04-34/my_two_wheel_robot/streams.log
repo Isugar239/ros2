@@ -1,0 +1,62 @@
+[0.025s] Invoking command in '/home/za1van/ros2_ws/build/my_two_wheel_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/ros2_ws/src/my_two_wheel_robot -DCMAKE_INSTALL_PREFIX=/home/za1van/ros2_ws/install/my_two_wheel_robot
+[0.033s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.033s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.034s]   CMake.
+[0.035s] 
+[0.035s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.035s]   to tell CMake that the project requires at least <min> but has been updated
+[0.037s]   to work with policies introduced by <max> or earlier.
+[0.037s] 
+[0.037s] [0m
+[0.290s] -- The C compiler identification is GNU 13.3.0
+[0.706s] -- The CXX compiler identification is GNU 13.3.0
+[0.744s] -- Detecting C compiler ABI info
+[1.071s] -- Detecting C compiler ABI info - done
+[1.147s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.147s] -- Detecting C compile features
+[1.148s] -- Detecting C compile features - done
+[1.198s] -- Detecting CXX compiler ABI info
+[1.478s] -- Detecting CXX compiler ABI info - done
+[1.553s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.556s] -- Detecting CXX compile features
+[1.562s] -- Detecting CXX compile features - done
+[1.612s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.455s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+[3.159s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.806s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.809s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.813s] -- Added test 'lint_cmake' to check CMake code style
+[3.814s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.819s] -- Added test 'xmllint' to check XML markup files
+[3.825s] -- Configuring done (3.8s)
+[3.833s] -- Generating done (0.0s)
+[3.835s] -- Build files have been written to: /home/za1van/ros2_ws/build/my_two_wheel_robot
+[4.058s] Invoked command in '/home/za1van/ros2_ws/build/my_two_wheel_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/ros2_ws/src/my_two_wheel_robot -DCMAKE_INSTALL_PREFIX=/home/za1van/ros2_ws/install/my_two_wheel_robot
+[4.059s] Invoking command in '/home/za1van/ros2_ws/build/my_two_wheel_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/ros2_ws/build/my_two_wheel_robot -- -j4 -l4
+[4.111s] Invoked command in '/home/za1van/ros2_ws/build/my_two_wheel_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/ros2_ws/build/my_two_wheel_robot -- -j4 -l4
+[4.113s] Invoking command in '/home/za1van/ros2_ws/build/my_two_wheel_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/za1van/ros2_ws/build/my_two_wheel_robot
+[4.126s] -- Install configuration: ""
+[4.126s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/launch
+[4.126s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/launch/two_wheel_robot.launch.py
+[4.127s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/urdf
+[4.127s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/urdf/my_two_wheel_robot.urdf.xacro
+[4.127s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/config
+[4.130s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/config/diff_drive_controllers.yaml
+[4.132s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/rviz
+[4.133s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/rviz/urdf.rviz
+[4.133s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/ament_index/resource_index/package_run_dependencies/my_two_wheel_robot
+[4.133s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/ament_index/resource_index/parent_prefix_path/my_two_wheel_robot
+[4.133s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/environment/ament_prefix_path.sh
+[4.134s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/environment/ament_prefix_path.dsv
+[4.134s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/environment/path.sh
+[4.135s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/environment/path.dsv
+[4.136s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/local_setup.bash
+[4.137s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/local_setup.sh
+[4.137s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/local_setup.zsh
+[4.138s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/local_setup.dsv
+[4.139s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/package.dsv
+[4.139s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/ament_index/resource_index/packages/my_two_wheel_robot
+[4.140s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/cmake/my_two_wheel_robotConfig.cmake
+[4.141s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/cmake/my_two_wheel_robotConfig-version.cmake
+[4.141s] -- Installing: /home/za1van/ros2_ws/install/my_two_wheel_robot/share/my_two_wheel_robot/package.xml
+[4.145s] Invoked command in '/home/za1van/ros2_ws/build/my_two_wheel_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/za1van/ros2_ws/build/my_two_wheel_robot

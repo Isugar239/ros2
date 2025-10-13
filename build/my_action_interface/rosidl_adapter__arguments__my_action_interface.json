@@ -1,0 +1,7 @@
+{
+  "package_name": "my_action_interface",
+  "non_idl_tuples": [
+    "/home/za1van/ros2_ws/src/my_action_interface:action/SummCalculate.action",
+    "/home/za1van/ros2_ws/src/my_action_interface:action/MoveTo.action"
+  ]
+}

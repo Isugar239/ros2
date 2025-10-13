@@ -1,0 +1,238 @@
+[0.028s] Invoking command in '/home/za1van/ros2_ws/build/turtle_dekart_control_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/ros2_ws/src/turtle_dekart_control_interface -DCMAKE_INSTALL_PREFIX=/home/za1van/ros2_ws/install/turtle_dekart_control_interface
+[0.037s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.038s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.038s]   CMake.
+[0.038s] 
+[0.038s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.038s]   to tell CMake that the project requires at least <min> but has been updated
+[0.038s]   to work with policies introduced by <max> or earlier.
+[0.038s] 
+[0.039s] [0m
+[0.159s] -- The C compiler identification is GNU 13.3.0
+[0.330s] -- The CXX compiler identification is GNU 13.3.0
+[0.350s] -- Detecting C compiler ABI info
+[0.479s] -- Detecting C compiler ABI info - done
+[0.570s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.570s] -- Detecting C compile features
+[0.571s] -- Detecting C compile features - done
+[0.626s] -- Detecting CXX compiler ABI info
+[0.818s] -- Detecting CXX compiler ABI info - done
+[0.863s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.864s] -- Detecting CXX compile features
+[0.864s] -- Detecting CXX compile features - done
+[0.885s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.584s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+[2.028s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.050s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.446s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.115s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.901s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.328s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.693s] -- Found PythonExtra: /usr/bin/python3
+[8.355s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed
+[8.499s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.590s] -- Added test 'lint_cmake' to check CMake code style
+[8.595s] -- Added test 'xmllint' to check XML markup files
+[8.603s] -- Configuring done (8.6s)
+[8.700s] -- Generating done (0.1s)
+[8.724s] -- Build files have been written to: /home/za1van/ros2_ws/build/turtle_dekart_control_interface
+[8.749s] Invoked command in '/home/za1van/ros2_ws/build/turtle_dekart_control_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/ros2_ws/src/turtle_dekart_control_interface -DCMAKE_INSTALL_PREFIX=/home/za1van/ros2_ws/install/turtle_dekart_control_interface
+[8.750s] Invoking command in '/home/za1van/ros2_ws/build/turtle_dekart_control_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/ros2_ws/build/turtle_dekart_control_interface -- -j4 -l4
+[8.876s] [  2%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[8.886s] [  2%] Built target ament_cmake_python_copy_turtle_dekart_control_interface
+[9.859s] [  2%] Built target turtle_dekart_control_interface__rosidl_generator_type_description
+[9.887s] [  5%] [1m[34mGenerating C code for ROS interfaces[0m
+[9.912s] [  8%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[10.491s] running egg_info
+[10.500s] creating turtle_dekart_control_interface.egg-info
+[10.682s] writing turtle_dekart_control_interface.egg-info/PKG-INFO
+[10.685s] writing dependency_links to turtle_dekart_control_interface.egg-info/dependency_links.txt
+[10.685s] writing top-level names to turtle_dekart_control_interface.egg-info/top_level.txt
+[10.688s] writing manifest file 'turtle_dekart_control_interface.egg-info/SOURCES.txt'
+[11.186s] [ 11%] [32mBuilding C object CMakeFiles/turtle_dekart_control_interface__rosidl_generator_c.dir/rosidl_generator_c/turtle_dekart_control_interface/msg/detail/numbers__functions.c.o[0m
+[11.200s] [ 14%] [32mBuilding C object CMakeFiles/turtle_dekart_control_interface__rosidl_generator_c.dir/rosidl_generator_c/turtle_dekart_control_interface/msg/detail/numbers__description.c.o[0m
+[11.291s] reading manifest file 'turtle_dekart_control_interface.egg-info/SOURCES.txt'
+[11.294s] writing manifest file 'turtle_dekart_control_interface.egg-info/SOURCES.txt'
+[11.332s] [ 17%] [32mBuilding C object CMakeFiles/turtle_dekart_control_interface__rosidl_generator_c.dir/rosidl_generator_c/turtle_dekart_control_interface/msg/detail/numbers__type_support.c.o[0m
+[11.333s] [ 17%] Built target turtle_dekart_control_interface__cpp
+[11.374s] [ 17%] Built target ament_cmake_python_build_turtle_dekart_control_interface_egg
+[11.435s] [ 20%] [1m[32mLinking C shared library libturtle_dekart_control_interface__rosidl_generator_c.so[0m
+[11.551s] [ 20%] Built target turtle_dekart_control_interface__rosidl_generator_c
+[11.574s] [ 23%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[11.579s] [ 26%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.581s] [ 29%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[11.588s] [ 32%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.824s] [ 35%] [32mBuilding CXX object CMakeFiles/turtle_dekart_control_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_dekart_control_interface/msg/numbers__type_support.cpp.o[0m
+[12.930s] [ 38%] [1m[32mLinking CXX shared library libturtle_dekart_control_interface__rosidl_typesupport_c.so[0m
+[12.960s] [ 41%] [32mBuilding C object CMakeFiles/turtle_dekart_control_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_dekart_control_interface/msg/detail/numbers__type_support.c.o[0m
+[12.969s] [ 44%] [32mBuilding CXX object CMakeFiles/turtle_dekart_control_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_dekart_control_interface/msg/numbers__type_support.cpp.o[0m
+[13.020s] [ 47%] [32mBuilding CXX object CMakeFiles/turtle_dekart_control_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_dekart_control_interface/msg/detail/dds_fastrtps/numbers__type_support.cpp.o[0m
+[13.024s] [ 47%] Built target turtle_dekart_control_interface__rosidl_typesupport_c
+[13.040s] [ 50%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[13.058s] [ 52%] [1m[32mLinking C shared library libturtle_dekart_control_interface__rosidl_typesupport_introspection_c.so[0m
+[13.103s] [ 52%] Built target turtle_dekart_control_interface__rosidl_typesupport_introspection_c
+[13.116s] [ 55%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[13.632s] [ 58%] [1m[32mLinking CXX shared library libturtle_dekart_control_interface__rosidl_typesupport_cpp.so[0m
+[13.709s] [ 58%] Built target turtle_dekart_control_interface__rosidl_typesupport_cpp
+[13.796s] [ 61%] [32mBuilding CXX object CMakeFiles/turtle_dekart_control_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_dekart_control_interface/msg/detail/numbers__type_support_c.cpp.o[0m
+[13.949s] [ 64%] [32mBuilding CXX object CMakeFiles/turtle_dekart_control_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_dekart_control_interface/msg/detail/numbers__type_support.cpp.o[0m
+[14.615s] [ 67%] [1m[32mLinking CXX shared library libturtle_dekart_control_interface__rosidl_typesupport_introspection_cpp.so[0m
+[14.724s] [ 70%] [1m[32mLinking CXX shared library libturtle_dekart_control_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.746s] [ 70%] Built target turtle_dekart_control_interface__rosidl_typesupport_introspection_cpp
+[14.806s] [ 70%] Built target turtle_dekart_control_interface__rosidl_typesupport_fastrtps_cpp
+[14.957s] [ 73%] [1m[32mLinking CXX shared library libturtle_dekart_control_interface__rosidl_typesupport_fastrtps_c.so[0m
+[15.009s] [ 73%] Built target turtle_dekart_control_interface__rosidl_typesupport_fastrtps_c
+[15.023s] [ 73%] Built target turtle_dekart_control_interface
+[15.038s] [ 76%] [1m[34mGenerating Python code for ROS interfaces[0m
+[15.494s] [ 76%] Built target turtle_dekart_control_interface__py
+[15.509s] [ 79%] [32mBuilding C object CMakeFiles/turtle_dekart_control_interface__rosidl_generator_py.dir/rosidl_generator_py/turtle_dekart_control_interface/msg/_numbers_s.c.o[0m
+[15.658s] [ 82%] [1m[32mLinking C shared library libturtle_dekart_control_interface__rosidl_generator_py.so[0m
+[15.698s] [ 82%] Built target turtle_dekart_control_interface__rosidl_generator_py
+[15.718s] [ 85%] [32mBuilding C object CMakeFiles/turtle_dekart_control_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/turtle_dekart_control_interface/_turtle_dekart_control_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.718s] [ 88%] [32mBuilding C object CMakeFiles/turtle_dekart_control_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtle_dekart_control_interface/_turtle_dekart_control_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[15.723s] [ 91%] [32mBuilding C object CMakeFiles/turtle_dekart_control_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtle_dekart_control_interface/_turtle_dekart_control_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.934s] [ 94%] [1m[32mLinking C shared module rosidl_generator_py/turtle_dekart_control_interface/turtle_dekart_control_interface_s__rosidl_typesupport_c.so[0m
+[15.942s] [ 97%] [1m[32mLinking C shared module rosidl_generator_py/turtle_dekart_control_interface/turtle_dekart_control_interface_s__rosidl_typesupport_introspection_c.so[0m
+[15.958s] [100%] [1m[32mLinking C shared module rosidl_generator_py/turtle_dekart_control_interface/turtle_dekart_control_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[15.973s] [100%] Built target turtle_dekart_control_interface_s__rosidl_typesupport_c
+[15.981s] [100%] Built target turtle_dekart_control_interface_s__rosidl_typesupport_introspection_c
+[15.996s] [100%] Built target turtle_dekart_control_interface_s__rosidl_typesupport_fastrtps_c
+[16.003s] Invoked command in '/home/za1van/ros2_ws/build/turtle_dekart_control_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/ros2_ws/build/turtle_dekart_control_interface -- -j4 -l4
+[16.005s] Invoking command in '/home/za1van/ros2_ws/build/turtle_dekart_control_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/za1van/ros2_ws/build/turtle_dekart_control_interface
+[16.012s] -- Install configuration: ""
+[16.012s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/ament_index/resource_index/rosidl_interfaces/turtle_dekart_control_interface
+[16.013s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/msg/Numbers.json
+[16.013s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface
+[16.013s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg
+[16.014s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/rosidl_generator_c__visibility_control.h
+[16.014s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail
+[16.014s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__functions.c
+[16.014s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__struct.h
+[16.015s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__type_support.c
+[16.015s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__description.c
+[16.015s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__type_support.h
+[16.015s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__functions.h
+[16.016s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/numbers.h
+[16.016s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/environment/library_path.sh
+[16.016s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/environment/library_path.dsv
+[16.017s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_generator_c.so
+[16.017s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_generator_c.so" to ""
+[16.017s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface
+[16.019s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg
+[16.020s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.020s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail
+[16.020s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__rosidl_typesupport_fastrtps_c.h
+[16.020s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_typesupport_fastrtps_c.so
+[16.021s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[16.021s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface
+[16.021s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg
+[16.021s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail
+[16.022s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__rosidl_typesupport_introspection_c.h
+[16.022s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__type_support.c
+[16.022s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.023s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_typesupport_introspection_c.so
+[16.023s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_typesupport_introspection_c.so" to ""
+[16.023s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_typesupport_c.so
+[16.024s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_typesupport_c.so" to ""
+[16.024s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface
+[16.024s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg
+[16.024s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.025s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/numbers.hpp
+[16.025s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail
+[16.025s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__struct.hpp
+[16.025s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__builder.hpp
+[16.026s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__type_support.hpp
+[16.026s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__traits.hpp
+[16.026s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface
+[16.027s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg
+[16.027s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.027s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail
+[16.028s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/dds_fastrtps
+[16.028s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__rosidl_typesupport_fastrtps_cpp.hpp
+[16.028s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_typesupport_fastrtps_cpp.so
+[16.029s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.029s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface
+[16.029s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg
+[16.030s] -- Up-to-date: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail
+[16.030s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__rosidl_typesupport_introspection_cpp.hpp
+[16.030s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/include/turtle_dekart_control_interface/turtle_dekart_control_interface/msg/detail/numbers__type_support.cpp
+[16.030s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_typesupport_introspection_cpp.so
+[16.030s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[16.031s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_typesupport_cpp.so
+[16.031s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_typesupport_cpp.so" to ""
+[16.031s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/environment/pythonpath.sh
+[16.031s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/environment/pythonpath.dsv
+[16.031s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface-0.0.0-py3.12.egg-info
+[16.032s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[16.032s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[16.032s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface-0.0.0-py3.12.egg-info/top_level.txt
+[16.032s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[16.032s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface
+[16.033s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/_turtle_dekart_control_interface_s.ep.rosidl_typesupport_introspection_c.c
+[16.033s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/turtle_dekart_control_interface_s__rosidl_typesupport_c.so
+[16.033s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/turtle_dekart_control_interface_s__rosidl_typesupport_introspection_c.so
+[16.033s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/__init__.py
+[16.033s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/_turtle_dekart_control_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.033s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/turtle_dekart_control_interface_s__rosidl_typesupport_fastrtps_c.so
+[16.034s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/msg
+[16.034s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/msg/_numbers_s.c
+[16.034s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/msg/__init__.py
+[16.034s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/msg/_numbers.py
+[16.034s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/_turtle_dekart_control_interface_s.ep.rosidl_typesupport_c.c
+[16.106s] Listing '/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface'...
+[16.106s] Compiling '/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/__init__.py'...
+[16.106s] Listing '/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/msg'...
+[16.107s] Compiling '/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/msg/__init__.py'...
+[16.107s] Compiling '/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/msg/_numbers.py'...
+[16.115s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/turtle_dekart_control_interface_s__rosidl_typesupport_fastrtps_c.so
+[16.115s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/turtle_dekart_control_interface_s__rosidl_typesupport_fastrtps_c.so" to ""
+[16.115s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/turtle_dekart_control_interface_s__rosidl_typesupport_introspection_c.so
+[16.116s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/turtle_dekart_control_interface_s__rosidl_typesupport_introspection_c.so" to ""
+[16.118s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/turtle_dekart_control_interface_s__rosidl_typesupport_c.so
+[16.119s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/python3.12/site-packages/turtle_dekart_control_interface/turtle_dekart_control_interface_s__rosidl_typesupport_c.so" to ""
+[16.119s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_generator_py.so
+[16.119s] -- Set non-toolchain portion of runtime path of "/home/za1van/ros2_ws/install/turtle_dekart_control_interface/lib/libturtle_dekart_control_interface__rosidl_generator_py.so" to ""
+[16.119s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/msg/Numbers.idl
+[16.120s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/msg/Numbers.msg
+[16.120s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/ament_index/resource_index/package_run_dependencies/turtle_dekart_control_interface
+[16.121s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/ament_index/resource_index/parent_prefix_path/turtle_dekart_control_interface
+[16.121s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/environment/ament_prefix_path.sh
+[16.121s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/environment/ament_prefix_path.dsv
+[16.122s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/environment/path.sh
+[16.122s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/environment/path.dsv
+[16.122s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/local_setup.bash
+[16.123s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/local_setup.sh
+[16.123s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/local_setup.zsh
+[16.123s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/local_setup.dsv
+[16.123s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/package.dsv
+[16.123s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/ament_index/resource_index/packages/turtle_dekart_control_interface
+[16.124s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/export_turtle_dekart_control_interface__rosidl_generator_cExport.cmake
+[16.125s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/export_turtle_dekart_control_interface__rosidl_generator_cExport-noconfig.cmake
+[16.125s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/export_turtle_dekart_control_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[16.125s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/export_turtle_dekart_control_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.126s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/turtle_dekart_control_interface__rosidl_typesupport_introspection_cExport.cmake
+[16.126s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/turtle_dekart_control_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.127s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/turtle_dekart_control_interface__rosidl_typesupport_cExport.cmake
+[16.127s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/turtle_dekart_control_interface__rosidl_typesupport_cExport-noconfig.cmake
+[16.127s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/export_turtle_dekart_control_interface__rosidl_generator_cppExport.cmake
+[16.127s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/export_turtle_dekart_control_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.127s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/export_turtle_dekart_control_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.128s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/turtle_dekart_control_interface__rosidl_typesupport_introspection_cppExport.cmake
+[16.128s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/turtle_dekart_control_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.128s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/turtle_dekart_control_interface__rosidl_typesupport_cppExport.cmake
+[16.128s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/turtle_dekart_control_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[16.129s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/export_turtle_dekart_control_interface__rosidl_generator_pyExport.cmake
+[16.129s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/export_turtle_dekart_control_interface__rosidl_generator_pyExport-noconfig.cmake
+[16.129s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/rosidl_cmake-extras.cmake
+[16.130s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.130s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[16.130s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/ament_cmake_export_targets-extras.cmake
+[16.130s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.131s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.131s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.131s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/turtle_dekart_control_interfaceConfig.cmake
+[16.132s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/cmake/turtle_dekart_control_interfaceConfig-version.cmake
+[16.132s] -- Installing: /home/za1van/ros2_ws/install/turtle_dekart_control_interface/share/turtle_dekart_control_interface/package.xml
+[16.134s] Invoked command in '/home/za1van/ros2_ws/build/turtle_dekart_control_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/za1van/ros2_ws/build/turtle_dekart_control_interface

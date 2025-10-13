@@ -1,0 +1,23 @@
+[2.757s] Invoking command in '/home/za1van/ros2_ws/src/my_tf2_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/build/my_tf2_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_tf2_demo build --build-base /home/za1van/ros2_ws/build/my_tf2_demo/build install --record /home/za1van/ros2_ws/build/my_tf2_demo/install.log --single-version-externally-managed install_data
+[4.278s] running egg_info
+[4.406s] writing ../../build/my_tf2_demo/my_tf2_demo.egg-info/PKG-INFO
+[4.408s] writing dependency_links to ../../build/my_tf2_demo/my_tf2_demo.egg-info/dependency_links.txt
+[4.411s] writing entry points to ../../build/my_tf2_demo/my_tf2_demo.egg-info/entry_points.txt
+[4.413s] writing requirements to ../../build/my_tf2_demo/my_tf2_demo.egg-info/requires.txt
+[4.416s] writing top-level names to ../../build/my_tf2_demo/my_tf2_demo.egg-info/top_level.txt
+[4.594s] reading manifest file '../../build/my_tf2_demo/my_tf2_demo.egg-info/SOURCES.txt'
+[4.597s] writing manifest file '../../build/my_tf2_demo/my_tf2_demo.egg-info/SOURCES.txt'
+[4.599s] running build
+[4.601s] running build_py
+[4.603s] running install
+[4.619s] running install_lib
+[4.708s] running install_data
+[4.708s] running install_egg_info
+[4.781s] removing '/home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages/my_tf2_demo-0.0.0-py3.12.egg-info' (and everything under it)
+[4.781s] Copying ../../build/my_tf2_demo/my_tf2_demo.egg-info to /home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages/my_tf2_demo-0.0.0-py3.12.egg-info
+[4.783s] running install_scripts
+[5.164s] Installing spawn_second_turtle script to /home/za1van/ros2_ws/install/my_tf2_demo/lib/my_tf2_demo
+[5.167s] Installing turtle_tf2_broadcaster script to /home/za1van/ros2_ws/install/my_tf2_demo/lib/my_tf2_demo
+[5.167s] Installing turtle_tf2_listener script to /home/za1van/ros2_ws/install/my_tf2_demo/lib/my_tf2_demo
+[5.167s] writing list of installed files to '/home/za1van/ros2_ws/build/my_tf2_demo/install.log'
+[5.576s] Invoked command in '/home/za1van/ros2_ws/src/my_tf2_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/za1van/ros2_ws/build/my_tf2_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za1van/ros2_ws/install/my_tf2_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_tf2_demo build --build-base /home/za1van/ros2_ws/build/my_tf2_demo/build install --record /home/za1van/ros2_ws/build/my_tf2_demo/install.log --single-version-externally-managed install_data

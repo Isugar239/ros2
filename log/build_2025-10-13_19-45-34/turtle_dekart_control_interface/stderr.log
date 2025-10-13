@@ -1,0 +1,4 @@
+gmake[2]: *** [CMakeFiles/turtle_dekart_control_interface__rosidl_generator_type_description.dir/build.make:94: CMakeFiles/turtle_dekart_control_interface__rosidl_generator_type_description.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:260: CMakeFiles/turtle_dekart_control_interface__rosidl_generator_type_description.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:551: CMakeFiles/ament_cmake_python_copy_turtle_dekart_control_interface.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

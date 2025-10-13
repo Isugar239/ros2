@@ -1,0 +1,5 @@
+[0.077s] Invoking command in '/home/za1van/ros2_ws/build/turtle_dekart_control_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/ros2_ws/build/turtle_dekart_control_interface -- -j4 -l4
+[0.129s] gmake[2]: *** [CMakeFiles/turtle_dekart_control_interface__rosidl_generator_type_description.dir/build.make:94: CMakeFiles/turtle_dekart_control_interface__rosidl_generator_type_description.dir/depend] Interrupt
+[0.130s] gmake[1]: *** [CMakeFiles/Makefile2:260: CMakeFiles/turtle_dekart_control_interface__rosidl_generator_type_description.dir/all] Interrupt
+[0.130s] gmake[1]: *** [CMakeFiles/Makefile2:551: CMakeFiles/ament_cmake_python_copy_turtle_dekart_control_interface.dir/all] Interrupt
+[0.132s] gmake: *** [Makefile:146: all] Interrupt
