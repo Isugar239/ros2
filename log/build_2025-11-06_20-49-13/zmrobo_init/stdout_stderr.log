@@ -1,0 +1,24 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/zmrobo_node.dir/src/zmrobo.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/zmrobo_node.dir/src/Quaternion_Solution.cpp.o[0m
+[100%] [1m[32mLinking CXX executable zmrobo_node[0m
+/usr/bin/ld: CMakeFiles/zmrobo_node.dir/src/zmrobo.cpp.o: in function `main':
+/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:16:(.text+0x16e): undefined reference to `turn_on_robot::Control()'
+/usr/bin/ld: CMakeFiles/zmrobo_node.dir/src/zmrobo.cpp.o: in function `turn_on_robot::turn_on_robot(std::shared_ptr<rclcpp::Node> const&)':
+/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:26:(.text+0x744): undefined reference to `serial::Serial::Serial(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int, serial::Timeout, serial::bytesize_t, serial::parity_t, serial::stopbits_t, serial::flowcontrol_t)'
+/usr/bin/ld: /home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:58:(.text+0x15c1): undefined reference to `turn_on_robot::Cmd_Vel_Callback(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)'
+/usr/bin/ld: /home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:60:(.text+0x16eb): undefined reference to `turn_on_robot::Akm_cmd_Vel_Callback(std::shared_ptr<ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> > >)'
+/usr/bin/ld: /home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:66:(.text+0x19cb): undefined reference to `serial::Serial::setPort(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: /home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:67:(.text+0x19ef): undefined reference to `serial::Serial::setBaudrate(unsigned int)'
+/usr/bin/ld: /home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:69:(.text+0x1a23): undefined reference to `serial::Serial::setTimeout(serial::Timeout&)'
+/usr/bin/ld: /home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:70:(.text+0x1a38): undefined reference to `serial::Serial::open()'
+/usr/bin/ld: /home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:77:(.text+0x1a4d): undefined reference to `serial::Serial::isOpen() const'
+/usr/bin/ld: /home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:81:(.text+0x24a2): undefined reference to `serial::Serial::~Serial()'
+/usr/bin/ld: CMakeFiles/zmrobo_node.dir/src/zmrobo.cpp.o: in function `turn_on_robot::~turn_on_robot()':
+/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:93:(.text+0x26f9): undefined reference to `turn_on_robot::Check_Sum(unsigned char, unsigned char)'
+/usr/bin/ld: /home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:98:(.text+0x273f): undefined reference to `serial::Serial::write(unsigned char const*, unsigned long)'
+/usr/bin/ld: /home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:105:(.text+0x2754): undefined reference to `serial::Serial::close()'
+/usr/bin/ld: /home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:107:(.text+0x293e): undefined reference to `serial::Serial::~Serial()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/zmrobo_node.dir/build.make:253: zmrobo_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/zmrobo_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

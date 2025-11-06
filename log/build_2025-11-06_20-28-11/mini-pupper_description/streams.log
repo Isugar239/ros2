@@ -1,0 +1,13 @@
+[0.045s] Invoking command in '/home/za1van/ros2_ws/build/mini-pupper_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/ros2_ws/src/mini_pupper_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/za1van/ros2_ws/install/mini-pupper_description
+[0.065s] [31mCMake Error at CMakeLists.txt:2 (cmake_minimum_required):
+[0.066s]   Compatibility with CMake < 3.5 has been removed from CMake.
+[0.067s] 
+[0.067s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.068s]   to tell CMake that the project requires at least <min> but has been updated
+[0.069s]   to work with policies introduced by <max> or earlier.
+[0.071s] 
+[0.075s]   Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+[0.077s] 
+[0.078s] [0m
+[0.080s] -- Configuring incomplete, errors occurred!
+[0.083s] Invoked command in '/home/za1van/ros2_ws/build/mini-pupper_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/ros2_ws/src/mini_pupper_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/za1van/ros2_ws/install/mini-pupper_description

@@ -1,0 +1,43 @@
+[0.014s] Invoking command in '/home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/Документы/собираем из исходников/zmrobo_init -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/za1van/Документы/собираем из исходников/zmrobo_init/install/zmrobo_init
+[0.041s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.447s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+[0.704s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.830s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.869s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.973s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.160s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.169s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.347s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")
+[1.408s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13")
+[1.459s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.682s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.780s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.858s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.927s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+[2.006s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[2.031s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.657s] -- Configuring done (2.6s)
+[2.695s] -- Generating done (0.0s)
+[2.703s] -- Build files have been written to: /home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init
+[2.722s] Invoked command in '/home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/Документы/собираем из исходников/zmrobo_init -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/za1van/Документы/собираем из исходников/zmrobo_init/install/zmrobo_init
+[2.725s] Invoking command in '/home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init -- -j4 -l4
+[2.786s] [ 33%] [32mBuilding CXX object CMakeFiles/zmrobo_node.dir/src/zmrobo.cpp.o[0m
+[2.787s] [ 66%] [32mBuilding CXX object CMakeFiles/zmrobo_node.dir/src/Quaternion_Solution.cpp.o[0m
+[2.812s] In file included from [01m[K/home/za1van/Документы/собираем из исходников/zmrobo_init/src/zmrobo.cpp:1[m[K:
+[2.814s] [01m[K/home/za1van/Документы/собираем из исходников/zmrobo_init/include/zmrobo.h:5:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[2.816s]     5 | #include [01;31m[K"ros/ros.h"[m[K
+[2.816s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.816s] In file included from [01m[K/home/za1van/Документы/собираем из исходников/zmrobo_init/include/Quaternion_Solution.h:4[m[K,
+[2.816s]                  from [01m[K/home/za1van/Документы/собираем из исходников/zmrobo_init/src/Quaternion_Solution.cpp:2[m[K:
+[2.817s] [01m[K/home/za1van/Документы/собираем из исходников/zmrobo_init/include/zmrobo.h:5:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[2.819s]     5 | #include [01;31m[K"ros/ros.h"[m[K
+[2.819s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.819s] compilation terminated.
+[2.820s] compilation terminated.
+[2.821s] gmake[2]: *** [CMakeFiles/zmrobo_node.dir/build.make:93: CMakeFiles/zmrobo_node.dir/src/Quaternion_Solution.cpp.o] Error 1
+[2.823s] gmake[2]: *** Waiting for unfinished jobs....
+[2.823s] gmake[2]: *** [CMakeFiles/zmrobo_node.dir/build.make:79: CMakeFiles/zmrobo_node.dir/src/zmrobo.cpp.o] Error 1
+[2.823s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/zmrobo_node.dir/all] Error 2
+[2.824s] gmake: *** [Makefile:146: all] Error 2
+[2.825s] Invoked command in '/home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init -- -j4 -l4

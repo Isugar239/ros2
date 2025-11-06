@@ -1,0 +1,27 @@
+[0.070s] Invoking command in '/home/za1van/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/ros2_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/za1van/ros2_ws/install/serial
+[0.086s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.087s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.087s]   CMake.
+[0.088s] 
+[0.088s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.089s]   to tell CMake that the project requires at least <min> but has been updated
+[0.089s]   to work with policies introduced by <max> or earlier.
+[0.090s] 
+[0.090s] [0m
+[0.304s] -- The C compiler identification is GNU 13.3.0
+[0.655s] -- The CXX compiler identification is GNU 13.3.0
+[0.718s] -- Detecting C compiler ABI info
+[1.088s] -- Detecting C compiler ABI info - done
+[1.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.156s] -- Detecting C compile features
+[1.157s] -- Detecting C compile features - done
+[1.194s] -- Detecting CXX compiler ABI info
+[1.565s] -- Detecting CXX compiler ABI info - done
+[1.642s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.646s] -- Detecting CXX compile features
+[1.648s] -- Detecting CXX compile features - done
+[1.698s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.600s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+[5.733s] -- Configuring done (5.7s)
+[5.887s] -- Generating done (0.1s)
+[5.926s] -- Build files have been written to: /home/za1van/ros2_ws/build/serial

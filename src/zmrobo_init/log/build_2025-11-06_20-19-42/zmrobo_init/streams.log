@@ -1,0 +1,36 @@
+[0.060s] Invoking command in '/home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/install/twist_converter:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_tf2_demo:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init -- -j4 -l4
+[0.167s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.950s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.102s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.131s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.491s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.498s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.778s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.069s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.183s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.257s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.318s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+[2.371s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[2.383s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.921s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[2.922s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[2.924s]   asked CMake to find a package configuration file provided by "serial", but
+[2.926s]   CMake did not find one.
+[2.931s] 
+[2.934s]   Could not find a package configuration file provided by "serial" with any
+[2.937s]   of the following names:
+[2.939s] 
+[2.943s]     serialConfig.cmake
+[2.944s]     serial-config.cmake
+[2.947s] 
+[2.947s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[2.948s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[2.948s]   provides a separate development package or SDK, be sure it has been
+[2.949s]   installed.
+[2.949s] 
+[2.952s] [0m
+[2.954s] -- Configuring incomplete, errors occurred!
+[2.956s] gmake: *** [Makefile:294: cmake_check_build_system] Error 1
+[2.957s] Invoked command in '/home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/install/twist_converter:/home/za1van/ros2_ws/install/my_turtle_controller:/home/za1van/ros2_ws/install/my_tf2_demo:/home/za1van/ros2_ws/install/my_service_server:/home/za1van/ros2_ws/install/my_service_client:/home/za1van/ros2_ws/install/my_project_start:/home/za1van/ros2_ws/install/my_calculate_action:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init -- -j4 -l4

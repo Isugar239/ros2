@@ -1,0 +1,12 @@
+<launch>
+  <!-- turn on base_serial 开启底层单片机的控制节点  -->
+  <include file="$(find zmrobo_init)/launch/include/base_serial.launch" >
+    <arg name="akm"  default="false"/>
+  </include>
+
+  <!-- 发布用于建图、导航的TF关系与小车外形可视化 -->
+  <include file="$(find zmrobo_init)/launch/robot_model_visualization.launch" >
+  </include>
+
+</launch>
+

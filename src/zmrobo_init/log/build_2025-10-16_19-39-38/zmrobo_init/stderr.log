@@ -1,0 +1,16 @@
+In file included from [01m[K/home/za1van/Документы/собираем из исходников/zmrobo_init/src/zmrobo.cpp:1[m[K:
+[01m[K/home/za1van/Документы/собираем из исходников/zmrobo_init/include/zmrobo.h:5:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+    5 | #include [01;31m[K"ros/ros.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/za1van/Документы/собираем из исходников/zmrobo_init/include/Quaternion_Solution.h:4[m[K,
+                 from [01m[K/home/za1van/Документы/собираем из исходников/zmrobo_init/src/Quaternion_Solution.cpp:2[m[K:
+[01m[K/home/za1van/Документы/собираем из исходников/zmrobo_init/include/zmrobo.h:5:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+    5 | #include [01;31m[K"ros/ros.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/zmrobo_node.dir/build.make:93: CMakeFiles/zmrobo_node.dir/src/Quaternion_Solution.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/zmrobo_node.dir/build.make:79: CMakeFiles/zmrobo_node.dir/src/zmrobo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/zmrobo_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,32 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[ 66%] [1m[32mLinking CXX static library libserial.a[0m
+[ 66%] Built target serial
+[ 83%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[100%] [1m[32mLinking CXX executable serial_example[0m
+[100%] Built target serial_example
+-- Install configuration: ""
+-- Installing: /home/za1van/ros2_ws/install/serial/lib/libserial.a
+-- Installing: /home/za1van/ros2_ws/install/serial/include
+-- Installing: /home/za1van/ros2_ws/install/serial/include/serial
+-- Installing: /home/za1van/ros2_ws/install/serial/include/serial/impl
+-- Installing: /home/za1van/ros2_ws/install/serial/include/serial/impl/unix.h
+-- Installing: /home/za1van/ros2_ws/install/serial/include/serial/impl/win.h
+-- Installing: /home/za1van/ros2_ws/install/serial/include/serial/serial.h
+-- Installing: /home/za1van/ros2_ws/install/serial/include/serial/v8stdint.h
+-- Installing: /home/za1van/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+-- Installing: /home/za1van/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+-- Installing: /home/za1van/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+-- Installing: /home/za1van/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+-- Installing: /home/za1van/ros2_ws/install/serial/share/serial/environment/path.sh
+-- Installing: /home/za1van/ros2_ws/install/serial/share/serial/environment/path.dsv
+-- Installing: /home/za1van/ros2_ws/install/serial/share/serial/local_setup.bash
+-- Installing: /home/za1van/ros2_ws/install/serial/share/serial/local_setup.sh
+-- Installing: /home/za1van/ros2_ws/install/serial/share/serial/local_setup.zsh
+-- Installing: /home/za1van/ros2_ws/install/serial/share/serial/local_setup.dsv
+-- Installing: /home/za1van/ros2_ws/install/serial/share/serial/package.dsv
+-- Installing: /home/za1van/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial
+-- Installing: /home/za1van/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake
+-- Installing: /home/za1van/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+-- Installing: /home/za1van/ros2_ws/install/serial/share/serial/package.xml

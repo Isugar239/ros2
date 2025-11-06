@@ -1,7 +1,0 @@
-{
-  "package_name": "my_custom_interface",
-  "output_dir": "/home/za1van/ros2_ws/build/my_custom_interface/rosidl_generator_type_description/my_custom_interface",
-  "idl_tuples": [
-    "/home/za1van/ros2_ws/build/my_custom_interface/rosidl_adapter/my_custom_interface:msg/Numbers.idl"
-  ]
-}

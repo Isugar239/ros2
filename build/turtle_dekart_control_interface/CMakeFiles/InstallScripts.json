@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/za1van/ros2_ws/build/turtle_dekart_control_interface/cmake_install.cmake",
-		"/home/za1van/ros2_ws/build/turtle_dekart_control_interface/turtle_dekart_control_interface__py/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

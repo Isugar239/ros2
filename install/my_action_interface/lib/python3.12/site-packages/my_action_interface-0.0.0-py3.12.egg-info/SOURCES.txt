@@ -1,9 +1,0 @@
-setup.py
-my_action_interface/__init__.py
-my_action_interface.egg-info/PKG-INFO
-my_action_interface.egg-info/SOURCES.txt
-my_action_interface.egg-info/dependency_links.txt
-my_action_interface.egg-info/top_level.txt
-my_action_interface/action/__init__.py
-my_action_interface/action/_move_to.py
-my_action_interface/action/_summ_calculate.py

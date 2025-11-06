@@ -1,0 +1,52 @@
+<launch>
+  <!-- 用于robot_state_publisher节点-->
+  <!-- <node pkg="tf" type="static_transform_publisher" name="base_to_link" args="0 0 0.05 0 0 0 base_footprint base_link 100" /> -->
+  
+  <!-- 用于rplidar_ros节点-->
+  <!-- <node pkg="tf" type="static_transform_publisher" name="base_to_laser" args="0.048 0.00 0.18 3.14 0 0  base_footprint laser 100" /> -->
+  <!-- <node pkg="tf" type="static_transform_publisher" name="base_to_laser" args="0.085 0.00 0.10 3.14 0 0  base_footprint laser 100" />  -->
+  <!-- 用于摄像头相关节点，如3d建图导航-->
+  <!-- <node pkg="tf" type="static_transform_publisher" name="base_to_camera" args="0.118 0 0.25 0 -0 0   base_footprint camera_link 100" /> -->
+  <!-- <node pkg="tf" type="static_transform_publisher" name="base_to_gyro" args="0 0 0 0 0 0 base_footprint gyro_link 100" /> -->
+  <!-- URDF 标准化机器人描述格式 -->
+  <!-- <param name = "robot_description" textfile = "$(find zmrobo_urdf)/urdf/zmrobo.urdf"/>  -->
+
+  <!-- 读取urdf信息(robot_description) 发布话题：/joint_states-->
+  <!-- <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" /> -->
+  <!-- 订阅话题：/joint_states，发布小车TF信息-->
+  <!-- <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" /> -->
+
+  <node pkg="tf" 
+    type="static_transform_publisher" 
+    name="base_to_link" 
+    args="0 0 0.085 0 0 0  base_footprint base_link 100" />
+  <node pkg="tf" 
+    type="static_transform_publisher" 
+    name="base_to_gyro" 
+    args="0 0 0 0 0 0 base_footprint gyro_link 100" />
+  <arg
+    name="model" />
+  <param
+    name="robot_description"
+    textfile="$(find zmrobo_urdf)/urdf/mini_car.urdf" />
+  <node
+    name="joint_state_publisher"
+    pkg="joint_state_publisher"
+    type="joint_state_publisher" />
+  <node
+    name="robot_state_publisher"
+    pkg="robot_state_publisher"
+    type="robot_state_publisher" />
+  <node
+    name="rviz_init"
+    pkg="rviz"
+    type="rviz"
+    args="-d $(find zmrobo_urdf)/urdf/urdf.rviz" 
+    required="true"/>
+
+  <!-- turn on ekf 扩张卡尔曼滤波 发布map到footprint的TF,即小车定位-->
+  <include file="$(find zmrobo_init)/launch/include/robot_pose_ekf.launch" />
+
+ </launch>
+
+

@@ -1,0 +1,13 @@
+[0.016s] Invoking command in '/home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/Документы/собираем из исходников/zmrobo_init -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/za1van/Документы/собираем из исходников/zmrobo_init/install/zmrobo_init
+[0.024s] [31mCMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+[0.024s]   Compatibility with CMake < 3.5 has been removed from CMake.
+[0.024s] 
+[0.024s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.025s]   to tell CMake that the project requires at least <min> but has been updated
+[0.025s]   to work with policies introduced by <max> or earlier.
+[0.025s] 
+[0.025s]   Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+[0.025s] 
+[0.026s] [0m
+[0.026s] -- Configuring incomplete, errors occurred!
+[0.027s] Invoked command in '/home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/Документы/собираем из исходников/zmrobo_init -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/za1van/Документы/собираем из исходников/zmrobo_init/install/zmrobo_init

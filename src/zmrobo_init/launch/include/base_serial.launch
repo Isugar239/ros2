@@ -1,0 +1,18 @@
+<launch>
+  <arg name="akm" default="false"/>
+  <arg name="smoother" default="false"/>
+  <arg name="akm_cmd_vel_topic" default="none"/>
+  <param if="$(arg akm)" name="akm_cmd_vel_topic" value="ackermann_cmd"/>
+  <node pkg="zmrobo_init" type="zmrobo_node" name="zmrobo" output="screen" respawn="false">
+    <param name="usart_port_name" type="string" value="/dev/ttyACM0"/>
+    <param name="serial_baud_rate" type="int" value="115200"/>
+    <param name="robot_frame_id" type="string" value="base_footprint"/>
+    <param name="akm_cmd_vel" type="string" value="$(arg akm_cmd_vel_topic)"/>
+    <param if="$(arg smoother)" name="cmd_vel" type="string" value="smoother_cmd_vel"/>
+    <param unless="$(arg smoother)" name="cmd_vel" type="string" value="cmd_vel"/>
+  </node>
+  <node if="$(arg akm)" pkg="turn_on_wheeltec_robot" type="cmd_vel_to_ackermann_drive.py" name="cmd2ackermann" output="screen">
+    <remap if="$(arg smoother)" from="cmd_vel" to="smoother_cmd_vel"/>
+  </node>
+  <include if="$(arg smoother)" file="$(find zmrobo_init)/launch/include/velocity_smoother.launch"/>
+</launch>

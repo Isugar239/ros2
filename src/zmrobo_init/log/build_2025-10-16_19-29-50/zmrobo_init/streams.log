@@ -1,0 +1,41 @@
+[0.011s] Invoking command in '/home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/Документы/собираем из исходников/zmrobo_init -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/za1van/Документы/собираем из исходников/zmrobo_init/install/zmrobo_init
+[0.020s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.020s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.020s]   CMake.
+[0.020s] 
+[0.021s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.021s]   to tell CMake that the project requires at least <min> but has been updated
+[0.021s]   to work with policies introduced by <max> or earlier.
+[0.021s] 
+[0.021s] [0m
+[0.262s] -- The C compiler identification is GNU 13.3.0
+[0.459s] -- The CXX compiler identification is GNU 13.3.0
+[0.479s] -- Detecting C compiler ABI info
+[0.576s] -- Detecting C compiler ABI info - done
+[0.599s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.600s] -- Detecting C compile features
+[0.601s] -- Detecting C compile features - done
+[0.626s] -- Detecting CXX compiler ABI info
+[0.729s] -- Detecting CXX compiler ABI info - done
+[0.756s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.757s] -- Detecting CXX compile features
+[0.758s] -- Detecting CXX compile features - done
+[0.802s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.802s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.802s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.802s]   CMake did not find one.
+[0.802s] 
+[0.803s]   Could not find a package configuration file provided by "catkin" with any
+[0.803s]   of the following names:
+[0.803s] 
+[0.803s]     catkinConfig.cmake
+[0.803s]     catkin-config.cmake
+[0.804s] 
+[0.804s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.804s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.804s]   provides a separate development package or SDK, be sure it has been
+[0.804s]   installed.
+[0.804s] 
+[0.804s] [0m
+[0.805s] -- Configuring incomplete, errors occurred!
+[0.809s] Invoked command in '/home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/Документы/собираем из исходников/zmrobo_init -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/za1van/Документы/собираем из исходников/zmrobo_init/install/zmrobo_init

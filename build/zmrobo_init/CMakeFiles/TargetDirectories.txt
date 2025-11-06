@@ -1,0 +1,10 @@
+/home/za1van/ros2_ws/build/zmrobo_init/CMakeFiles/uninstall.dir
+/home/za1van/ros2_ws/build/zmrobo_init/CMakeFiles/zmrobo_init_uninstall.dir
+/home/za1van/ros2_ws/build/zmrobo_init/CMakeFiles/zmrobo_node.dir
+/home/za1van/ros2_ws/build/zmrobo_init/CMakeFiles/test.dir
+/home/za1van/ros2_ws/build/zmrobo_init/CMakeFiles/edit_cache.dir
+/home/za1van/ros2_ws/build/zmrobo_init/CMakeFiles/rebuild_cache.dir
+/home/za1van/ros2_ws/build/zmrobo_init/CMakeFiles/list_install_components.dir
+/home/za1van/ros2_ws/build/zmrobo_init/CMakeFiles/install.dir
+/home/za1van/ros2_ws/build/zmrobo_init/CMakeFiles/install/local.dir
+/home/za1van/ros2_ws/build/zmrobo_init/CMakeFiles/install/strip.dir

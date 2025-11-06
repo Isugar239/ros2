@@ -1,7 +1,13 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: 3t
 Version: 0.0.0
 Summary: TODO: Package description
 Maintainer: za1van
 Maintainer-email: za1van@todo.todo
 License: TODO: License declaration
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

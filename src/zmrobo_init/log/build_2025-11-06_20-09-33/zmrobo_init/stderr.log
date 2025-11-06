@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:3:
+  Parse error.  Expected "(", got unquoted argument with text
+  "serial_DIR=/tmp/usr/local/share/serial/cmake".
+
+[0m
+gmake: *** [Makefile:294: cmake_check_build_system] Error 1

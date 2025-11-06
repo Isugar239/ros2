@@ -1,0 +1,4 @@
+source;share/zmrobo_init/local_setup.bash
+source;share/zmrobo_init/local_setup.dsv
+source;share/zmrobo_init/local_setup.sh
+source;share/zmrobo_init/local_setup.zsh

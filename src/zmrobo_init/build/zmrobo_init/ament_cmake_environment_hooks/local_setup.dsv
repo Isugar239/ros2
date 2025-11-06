@@ -1,0 +1,2 @@
+source;share/zmrobo_init/environment/ament_prefix_path.sh
+source;share/zmrobo_init/environment/path.sh

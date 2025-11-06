@@ -1,0 +1,2 @@
+Invoking command in '/home/za1van/ros2_ws/build/zmrobo_init': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/ros2_ws/build/zmrobo_init -- -j4 -l4
+Invoked command in '/home/za1van/ros2_ws/build/zmrobo_init' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/ros2_ws/build/zmrobo_init -- -j4 -l4

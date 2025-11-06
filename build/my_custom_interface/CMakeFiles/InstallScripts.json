@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/za1van/ros2_ws/build/my_custom_interface/cmake_install.cmake",
-		"/home/za1van/ros2_ws/build/my_custom_interface/my_custom_interface__py/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

@@ -1,0 +1,29 @@
+[0.019s] Invoking command in '/home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/Документы/собираем из исходников/zmrobo_init -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/za1van/Документы/собираем из исходников/zmrobo_init/install/zmrobo_init
+[0.026s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.026s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.027s]   CMake.
+[0.027s] 
+[0.027s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.027s]   to tell CMake that the project requires at least <min> but has been updated
+[0.028s]   to work with policies introduced by <max> or earlier.
+[0.028s] 
+[0.028s] [0m
+[0.062s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.062s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.062s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.062s]   CMake did not find one.
+[0.062s] 
+[0.062s]   Could not find a package configuration file provided by "catkin" with any
+[0.063s]   of the following names:
+[0.063s] 
+[0.063s]     catkinConfig.cmake
+[0.063s]     catkin-config.cmake
+[0.063s] 
+[0.064s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.064s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.065s]   provides a separate development package or SDK, be sure it has been
+[0.065s]   installed.
+[0.065s] 
+[0.066s] [0m
+[0.066s] -- Configuring incomplete, errors occurred!
+[0.067s] Invoked command in '/home/za1van/Документы/собираем из исходников/zmrobo_init/build/zmrobo_init' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/za1van/Документы/собираем из исходников/zmrobo_init -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/za1van/Документы/собираем из исходников/zmrobo_init/install/zmrobo_init

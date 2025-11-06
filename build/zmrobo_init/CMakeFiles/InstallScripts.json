@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/za1van/ros2_ws/build/zmrobo_init/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,42 @@
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:[m[K In member function ‘[01m[Kvoid turn_on_robot::[01;32m[KControl[m[K()[m[K’:
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:360:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  360 |   _Last_Time = [01;31m[Kros[m[K::Time::now();
+      |                [01;31m[K^~~[m[K
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:361:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  361 |   while([01;31m[Kros[m[K::ok())
+      |         [01;31m[K^~~[m[K
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:363:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  363 |     _Now = [01;31m[Kros[m[K::Time::now();
+      |            [01;31m[K^~~[m[K
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:364:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Duration[m[K’ has no member named ‘[01m[KtoSec[m[K’
+  364 |     Sampling_Time = (_Now - _Last_Time).[01;31m[KtoSec[m[K(); //Retrieves time interval, which is used to integrate velocity to obtain displacement (mileage)
+      |                                         [01;31m[K^~~~~[m[K
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:384:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  384 |     [01;31m[Kros[m[K::spinOnce();   //The loop waits for the callback function //循环等待回调函数
+      |     [01;31m[K^~~[m[K
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:[m[K At global scope:
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:392:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kturn_on_robot::[01;32m[Kturn_on_robot[m[K()[m[K’
+  392 | [01;31m[Kturn_on_robot[m[K::turn_on_robot():Sampling_Time(0),Power_voltage(0)
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:1[m[K:
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/include/zmrobo.h:133:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kturn_on_robot::[01;32m[Kturn_on_robot[m[K(const turn_on_robot&)[m[K’
+  133 | class [01;36m[Kturn_on_robot[m[K
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/include/zmrobo.h:136:17:[m[K [01;36m[Knote: [m[K                ‘[01m[Kturn_on_robot::[01;32m[Kturn_on_robot[m[K(const rclcpp::Node::SharedPtr&)[m[K’
+  136 |                 [01;36m[Kturn_on_robot[m[K(const rclcpp::Node::SharedPtr & node_ptr);  //Constructor //构造函数
+      |                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/include/zmrobo.h:133:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass turn_on_robot[m[K’ defined here
+  133 | class [01;36m[Kturn_on_robot[m[K
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:[m[K In destructor ‘[01m[Kturn_on_robot::[01;32m[K~turn_on_robot[m[K()[m[K’:
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:474:5:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR_STREAM[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_ERROR_STREAM[m[K’?
+  474 |     [01;31m[KROS_ERROR_STREAM[m[K("Unable to send data through serial port"); //If sending data fails, an error message is printed //如果发送数据失败,打印错误信息
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[KRCLCPP_ERROR_STREAM[m[K
+[01m[K/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:477:3:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO_STREAM[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO_STREAM[m[K’?
+  477 |   [01;31m[KROS_INFO_STREAM[m[K("Shutting down"); //Prompt message //提示信息
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |   [32m[KRCLCPP_INFO_STREAM[m[K
+gmake[2]: *** [CMakeFiles/zmrobo_node.dir/build.make:79: CMakeFiles/zmrobo_node.dir/src/zmrobo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/zmrobo_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

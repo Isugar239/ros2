@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.000556] (-) JobUnselected: {'identifier': '3t'}
+[0.001066] (-) JobUnselected: {'identifier': 'mini-pupper_description'}
+[0.001364] (-) JobUnselected: {'identifier': 'my_action_interface'}
+[0.001727] (-) JobUnselected: {'identifier': 'my_calculate_action'}
+[0.001863] (-) JobUnselected: {'identifier': 'my_custom_interface'}
+[0.001962] (-) JobUnselected: {'identifier': 'my_project_start'}
+[0.002095] (-) JobUnselected: {'identifier': 'my_service_client'}
+[0.002186] (-) JobUnselected: {'identifier': 'my_service_interfaces'}
+[0.002272] (-) JobUnselected: {'identifier': 'my_service_server'}
+[0.002362] (-) JobUnselected: {'identifier': 'my_tf2_demo'}
+[0.002495] (-) JobUnselected: {'identifier': 'my_turtle_controller'}
+[0.002628] (-) JobUnselected: {'identifier': 'my_two_wheel_robot'}
+[0.002813] (-) JobUnselected: {'identifier': 'puppersim'}
+[0.002976] (-) JobUnselected: {'identifier': 'ros1_mosh'}
+[0.003148] (-) JobUnselected: {'identifier': 'serial'}
+[0.003710] (-) JobUnselected: {'identifier': 'turtle_dekart_control_interface'}
+[0.003829] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.003948] (zmrobo_init) JobQueued: {'identifier': 'zmrobo_init', 'dependencies': OrderedDict({'serial': '/home/za1van/ros2_ws/install/serial'})}
+[0.004135] (zmrobo_init) JobStarted: {'identifier': 'zmrobo_init'}
+[0.036654] (zmrobo_init) JobProgress: {'identifier': 'zmrobo_init', 'progress': 'cmake'}
+[0.038810] (zmrobo_init) JobProgress: {'identifier': 'zmrobo_init', 'progress': 'build'}
+[0.040390] (zmrobo_init) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/za1van/ros2_ws/build/zmrobo_init', '--', '-j4', '-l4'], 'cwd': '/home/za1van/ros2_ws/build/zmrobo_init', 'env': OrderedDict({'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'LANGUAGE': '', 'GTK_CSD': '0', 'USER': 'za1van', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '3466', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/tmp/.mount_Cursor5KtYL6/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh', 'XCURSOR_SIZE': '24', 'KONSOLE_VERSION': '230805', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/tmp/.mount_Cursor5KtYL6/usr/lib/:/tmp/.mount_Cursor5KtYL6/usr/lib32/:/tmp/.mount_Cursor5KtYL6/usr/lib64/:/tmp/.mount_Cursor5KtYL6/lib/:/tmp/.mount_Cursor5KtYL6/lib/i386-linux-gnu/:/tmp/.mount_Cursor5KtYL6/lib/x86_64-linux-gnu/:/tmp/.mount_Cursor5KtYL6/lib/aarch64-linux-gnu/:/tmp/.mount_Cursor5KtYL6/lib32/:/tmp/.mount_Cursor5KtYL6/lib64/:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/za1van', 'CHROME_DESKTOP': 'cursor.desktop', 'APPDIR': '/tmp/.mount_Cursor5KtYL6', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/za1van/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.4.2', 'DESKTOP_SESSION': 'plasma', 'PERLLIB': '/tmp/.mount_Cursor5KtYL6/usr/share/perl5/:/tmp/.mount_Cursor5KtYL6/usr/lib/perl5/:', 'ROS_PYTHON_VERSION': '3', 'SHELL_SESSION_ID': '53f79704e1054bfdac1bffb61a759acb', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/za1van/.gtkrc:/home/za1van/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/tmp/.mount_Cursor5KtYL6/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/tmp/.mount_Cursor5KtYL6/usr/share/cursor/cursor', 'KONSOLE_DBUS_SESSION': '/Sessions/1', 'MANAGERPID': '3293', 'SYSTEMD_EXEC_PID': '3657', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/za1van/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'za1van', 'WINDOWID': '81788941', 'OWD': '/home/za1van/ros2_ws/src/puppersim', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:23175', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-ksmserver.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'STM32_PRG_PATH': '/home/za1van/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/za1van/.gtkrc-2.0:/home/za1van/.config/gtkrc-2.0', 'PATH': '/home/za1van/.cursor/extensions/arm.vscode-cmsis-debugger-1.1.0-linux-x64/tools/pyocd:/home/za1van/.cursor/extensions/arm.vscode-cmsis-debugger-1.1.0-linux-x64/tools/gdb/bin:/home/za1van/.local/bin:/tmp/.mount_Cursor5KtYL6/usr/bin/:/tmp/.mount_Cursor5KtYL6/usr/sbin/:/tmp/.mount_Cursor5KtYL6/usr/games/:/tmp/.mount_Cursor5KtYL6/bin/:/tmp/.mount_Cursor5KtYL6/sbin/:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/za1van/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/dell-station:@/tmp/.ICE-unix/3657,unix/dell-station:/tmp/.ICE-unix/3657', 'INVOCATION_ID': '7edecc2853b8407f9cf2eeaf8bc36f38', 'APPIMAGE': '/home/za1van/Загрузки/Cursor-1.4.2-x86_64.AppImage', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'ICEAUTHORITY': '/run/user/1000/iceauth_VwMjTo', 'DISPLAY': ':0', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_sdckLB', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0274e6594f.sock', 'TERM_PROGRAM': 'vscode', 'CURSOR_TRACE_ID': 'ef5c649f07b14988b41856346c70ef2e', 'SSH_AUTH_SOCK': '/tmp/ssh-FMxqo12WxlDV/agent.3355', 'GSETTINGS_SCHEMA_DIR': '/tmp/.mount_Cursor5KtYL6/usr/share/glib-2.0/schemas/:', 'AMENT_PREFIX_PATH': '/home/za1van/ros2_ws/install/serial:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'KDE', 'SHELL': '/bin/bash', 'ARGV0': '/home/za1van/Загрузки/Cursor-1.4.2-x86_64.AppImage', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.81', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/za1van/ros2_ws/build/zmrobo_init', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/home/za1van/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/tmp/.mount_Cursor5KtYL6/usr/share/:/usr/local/share:/usr/share:/usr/share/plasma:/usr/share/gnome:/home/za1van/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/za1van/ros2_ws/install/3t/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'QT_PLUGIN_PATH': '/tmp/.mount_Cursor5KtYL6/usr/lib/qt4/plugins/:/tmp/.mount_Cursor5KtYL6/usr/lib/i386-linux-gnu/qt4/plugins/:/tmp/.mount_Cursor5KtYL6/usr/lib/x86_64-linux-gnu/qt4/plugins/:/tmp/.mount_Cursor5KtYL6/usr/lib/aarch64-linux-gnu/qt4/plugins/:/tmp/.mount_Cursor5KtYL6/usr/lib32/qt4/plugins/:/tmp/.mount_Cursor5KtYL6/usr/lib64/qt4/plugins/:/tmp/.mount_Cursor5KtYL6/usr/lib/qt5/plugins/:/tmp/.mount_Cursor5KtYL6/usr/lib/i386-linux-gnu/qt5/plugins/:/tmp/.mount_Cursor5KtYL6/usr/lib/x86_64-linux-gnu/qt5/plugins/:/tmp/.mount_Cursor5KtYL6/usr/lib/aarch64-linux-gnu/qt5/plugins/:/tmp/.mount_Cursor5KtYL6/usr/lib32/qt5/plugins/:/tmp/.mount_Cursor5KtYL6/usr/lib64/qt5/plugins/:', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/za1van/ros2_ws/install/serial:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/za1van/ros2_ws/install/3t:/opt/ros/jazzy'}), 'shell': False}
+[0.090365] (zmrobo_init) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099273] (-) TimerEvent: {}
+[0.200708] (-) TimerEvent: {}
+[0.301084] (-) TimerEvent: {}
+[0.401425] (-) TimerEvent: {}
+[0.501799] (-) TimerEvent: {}
+[0.582999] (zmrobo_init) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.601910] (-) TimerEvent: {}
+[0.692695] (zmrobo_init) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.702015] (-) TimerEvent: {}
+[0.727660] (zmrobo_init) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.767566] (zmrobo_init) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.802114] (-) TimerEvent: {}
+[0.815816] (zmrobo_init) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902262] (-) TimerEvent: {}
+[1.002634] (-) TimerEvent: {}
+[1.034093] (zmrobo_init) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.038302] (zmrobo_init) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.102744] (-) TimerEvent: {}
+[1.203106] (-) TimerEvent: {}
+[1.232354] (zmrobo_init) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.303210] (-) TimerEvent: {}
+[1.403575] (-) TimerEvent: {}
+[1.491399] (zmrobo_init) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.503685] (-) TimerEvent: {}
+[1.603562] (zmrobo_init) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.604128] (-) TimerEvent: {}
+[1.675234] (zmrobo_init) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.704232] (-) TimerEvent: {}
+[1.743015] (zmrobo_init) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)\n'}
+[1.791154] (zmrobo_init) StdoutLine: {'line': b'-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.804338] (-) TimerEvent: {}
+[1.805447] (zmrobo_init) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.904442] (-) TimerEvent: {}
+[2.004786] (-) TimerEvent: {}
+[2.105089] (-) TimerEvent: {}
+[2.130984] (zmrobo_init) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/za1van/ros2_ws/install/serial/share/serial/cmake)\n'}
+[2.205193] (-) TimerEvent: {}
+[2.305644] (-) TimerEvent: {}
+[2.347812] (zmrobo_init) StdoutLine: {'line': b'-- Configuring done (2.3s)\n'}
+[2.405751] (-) TimerEvent: {}
+[2.429332] (zmrobo_init) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.450646] (zmrobo_init) StdoutLine: {'line': b'-- Build files have been written to: /home/za1van/ros2_ws/build/zmrobo_init\n'}
+[2.505857] (-) TimerEvent: {}
+[2.508101] (zmrobo_init) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/zmrobo_node.dir/src/Quaternion_Solution.cpp.o\x1b[0m\n'}
+[2.509425] (zmrobo_init) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/zmrobo_node.dir/src/zmrobo.cpp.o\x1b[0m\n'}
+[2.606099] (-) TimerEvent: {}
+[2.706459] (-) TimerEvent: {}
+[2.806864] (-) TimerEvent: {}
+[2.907389] (-) TimerEvent: {}
+[3.008063] (-) TimerEvent: {}
+[3.109706] (-) TimerEvent: {}
+[3.210098] (-) TimerEvent: {}
+[3.311572] (-) TimerEvent: {}
+[3.412067] (-) TimerEvent: {}
+[3.512633] (-) TimerEvent: {}
+[3.614104] (-) TimerEvent: {}
+[3.714500] (-) TimerEvent: {}
+[3.772491] (zmrobo_init) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/za1van/ros2_ws/src/zmrobo_init/src/zmrobo.cpp:1\x1b[m\x1b[K:\n'}
+[3.773175] (zmrobo_init) StderrLine: {'line': b'\x1b[01m\x1b[K/home/za1van/ros2_ws/src/zmrobo_init/include/zmrobo.h:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory\n'}
+[3.773668] (zmrobo_init) StderrLine: {'line': b'   19 | #include \x1b[01;31m\x1b[K<tf2_geometry_msgs/tf2_geometry_msgs.hpp>\x1b[m\x1b[K\n'}
+[3.774243] (zmrobo_init) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.775115] (zmrobo_init) StderrLine: {'line': b'compilation terminated.\n'}
+[3.780038] (zmrobo_init) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/zmrobo_node.dir/build.make:79: CMakeFiles/zmrobo_node.dir/src/zmrobo.cpp.o] Error 1\n'}
+[3.780917] (zmrobo_init) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.781417] (zmrobo_init) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/za1van/ros2_ws/src/zmrobo_init/include/Quaternion_Solution.h:4\x1b[m\x1b[K,\n'}
+[3.781820] (zmrobo_init) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/za1van/ros2_ws/src/zmrobo_init/src/Quaternion_Solution.cpp:2\x1b[m\x1b[K:\n'}
+[3.782256] (zmrobo_init) StderrLine: {'line': b'\x1b[01m\x1b[K/home/za1van/ros2_ws/src/zmrobo_init/include/zmrobo.h:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory\n'}
+[3.782629] (zmrobo_init) StderrLine: {'line': b'   19 | #include \x1b[01;31m\x1b[K<tf2_geometry_msgs/tf2_geometry_msgs.hpp>\x1b[m\x1b[K\n'}
+[3.782977] (zmrobo_init) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.783340] (zmrobo_init) StderrLine: {'line': b'compilation terminated.\n'}
+[3.785394] (zmrobo_init) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/zmrobo_node.dir/build.make:93: CMakeFiles/zmrobo_node.dir/src/Quaternion_Solution.cpp.o] Error 1\n'}
+[3.785983] (zmrobo_init) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/zmrobo_node.dir/all] Error 2\n'}
+[3.786492] (zmrobo_init) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.789046] (zmrobo_init) CommandEnded: {'returncode': 2}
+[3.814823] (-) TimerEvent: {}
+[3.828592] (zmrobo_init) JobEnded: {'identifier': 'zmrobo_init', 'rc': 2}
+[3.839556] (-) EventReactorShutdown: {}

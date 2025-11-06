@@ -1,1 +1,0 @@
-Invoking command in '/home/za1van/ros2_ws/build/turtle_dekart_control_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/za1van/ros2_ws/build/turtle_dekart_control_interface -- -j4 -l4
